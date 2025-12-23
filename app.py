@@ -16,6 +16,11 @@ app = Flask(__name__, static_folder='static', static_url_path='/static')
 # Store active game sessions (in production, use Redis or similar)
 game_sessions = {}
 
+# Game configuration constants
+COMBAT_EXPERIENCE_REWARD = 50
+EXPLORATION_EXPERIENCE_REWARD = 10
+ENCOUNTER_CHANCE = 0.1  # 10% chance of encounter on move
+
 @app.route('/')
 def home():
     """Serve the main HTML page"""
@@ -148,7 +153,7 @@ def move_player(session_id):
     
     # Check for random encounter
     encounter = None
-    if np.random.random() < 0.1:  # 10% chance
+    if np.random.random() < ENCOUNTER_CHANCE:
         nearby_creatures = [c for c in game.game_state.ecosystem.creatures 
                           if np.linalg.norm(np.array(c['position'][:2]) - player.position[:2]) < 20]
         if nearby_creatures:
@@ -208,7 +213,7 @@ def perform_action(session_id):
             'player_victory': True,
             'message': 'Enemy defeated!'
         }
-        player.gain_experience(50, player.skills['COMBAT'] if hasattr(player.skills, '__getitem__') else 1)
+        player.gain_experience(COMBAT_EXPERIENCE_REWARD, player.skills['COMBAT'] if hasattr(player.skills, '__getitem__') else 1)
         
     elif action == 'gather':
         # Try to gather resources
@@ -216,7 +221,7 @@ def perform_action(session_id):
             player.stats.stamina -= 5
             if np.random.random() < 0.7:
                 result['message'] = 'You gathered some resources!'
-                player.gain_experience(10, player.skills.get('EXPLORATION', 1))
+                player.gain_experience(EXPLORATION_EXPERIENCE_REWARD, player.skills.get('EXPLORATION', 1))
             else:
                 result['message'] = 'Nothing to gather here.'
         else:

@@ -12,6 +12,14 @@ const Renderer = {
     viewportWidth: 15,
     viewportHeight: 15,
     
+    // Procedural generation constants
+    BIOME_HASH_PRIME_1: 374761393,
+    BIOME_HASH_PRIME_2: 668265263,
+    BIOME_HASH_MODULO: 1000000,
+    FEATURE_HASH_PRIME_1: 668265263,
+    FEATURE_HASH_PRIME_2: 374761393,
+    FEATURE_CHANCE: 0.15, // 15% chance of feature appearing
+    
     /**
      * Initialize renderer
      */
@@ -160,8 +168,8 @@ const Renderer = {
      */
     getBiomeAtPosition(x, y) {
         // Simple procedural biome generation
-        const hash = (x * 374761393 + y * 668265263) % 1000000;
-        const val = (hash / 1000000);
+        const hash = (x * this.BIOME_HASH_PRIME_1 + y * this.BIOME_HASH_PRIME_2) % this.BIOME_HASH_MODULO;
+        const val = (hash / this.BIOME_HASH_MODULO);
         
         if (val < 0.1) return 'water';
         if (val < 0.3) return 'plains';
@@ -194,15 +202,15 @@ const Renderer = {
      * Check if position has a feature
      */
     hasFeature(x, y) {
-        const hash = (x * 668265263 + y * 374761393) % 100;
-        return hash < 15; // 15% chance
+        const hash = (x * this.FEATURE_HASH_PRIME_1 + y * this.FEATURE_HASH_PRIME_2) % 100;
+        return hash < (this.FEATURE_CHANCE * 100);
     },
 
     /**
      * Get feature icon for biome
      */
     getFeatureIcon(biome, x, y) {
-        const hash = (x * 374761393 + y * 668265263) % 10;
+        const hash = (x * this.BIOME_HASH_PRIME_1 + y * this.BIOME_HASH_PRIME_2) % 10;
         
         const features = {
             forest: ['🌲', '🌳', '🍄'],

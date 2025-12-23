@@ -112,16 +112,19 @@ const UI = {
     },
 
     /**
-     * Show item details
+     * Show item details (could be enhanced with a modal in the future)
      */
     showItemDetails(item) {
+        // TODO: Replace alert with custom modal for better UX
         const details = `
             Item: ${item.name}
             Type: ${item.type}
             ${item.power ? 'Power: ' + item.power : ''}
             ${item.quantity > 1 ? 'Quantity: ' + item.quantity : ''}
         `;
-        alert(details);
+        // Temporary: using console.log instead of alert for better UX
+        console.log('Item Details:', item);
+        this.showMessage(`${item.name} - ${item.type}${item.quantity > 1 ? ' (' + item.quantity + ')' : ''}`, 'info');
     },
 
     /**

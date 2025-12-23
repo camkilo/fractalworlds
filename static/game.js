@@ -13,6 +13,9 @@ class FractalWorldsGame {
         this.moveQueue = [];
         this.isMoving = false;
         
+        // Configuration constants
+        this.UPDATE_INTERVAL_MS = 2000; // Update game state every 2 seconds
+        
         // Load saved session if exists
         const savedSession = localStorage.getItem('fw_session');
         if (savedSession) {
@@ -105,12 +108,12 @@ class FractalWorldsGame {
      * Start the game loop
      */
     async startGameLoop() {
-        // Update game state every 2 seconds
+        // Update game state at configured interval
         this.updateInterval = setInterval(async () => {
             if (this.gameState === 'playing') {
                 await this.updateGame();
             }
-        }, 2000);
+        }, this.UPDATE_INTERVAL_MS);
 
         // Initial update
         await this.updateGame();
