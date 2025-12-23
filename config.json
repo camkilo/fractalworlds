@@ -1,0 +1,67 @@
+{
+  "world_settings": {
+    "seed": 42,
+    "world_size": 256,
+    "fractal_iterations": 8,
+    "terrain_roughness": 0.6,
+    "water_level": 0.3,
+    "tree_density": 0.5,
+    "creature_density": 0.15,
+    "magic_intensity": 0.8
+  },
+  "rendering": {
+    "lighting_quality": "cinematic",
+    "enable_animations": true,
+    "enable_particles": true,
+    "enable_post_processing": true,
+    "shadow_quality": "high",
+    "texture_quality": "high",
+    "resolution": {
+      "width": 1920,
+      "height": 1080
+    },
+    "target_fps": 60
+  },
+  "biomes": {
+    "forest": {
+      "tree_types": ["oak", "pine", "birch", "magical"],
+      "undergrowth_density": 0.7,
+      "ambient_sound": "forest_ambience"
+    },
+    "mountains": {
+      "peak_snow_level": 0.8,
+      "rock_types": ["granite", "limestone", "crystal"],
+      "ambient_sound": "wind_howl"
+    },
+    "magical_grove": {
+      "magic_intensity_multiplier": 1.5,
+      "glow_color": [138, 43, 226],
+      "special_creatures": true,
+      "ambient_sound": "mystical_chimes"
+    }
+  },
+  "creatures": {
+    "spawn_rules": {
+      "time_based": true,
+      "biome_specific": true,
+      "max_per_area": 10
+    },
+    "behavior_patterns": {
+      "aggressive": 0.2,
+      "neutral": 0.5,
+      "friendly": 0.3
+    }
+  },
+  "magic_system": {
+    "spell_schools": ["elemental", "arcane", "nature", "divine"],
+    "mana_regeneration": 0.05,
+    "spell_visual_effects": true,
+    "particle_quality": "high"
+  },
+  "performance": {
+    "lod_levels": 4,
+    "culling_distance": 500,
+    "max_lights": 32,
+    "max_particles": 10000
+  }
+}
