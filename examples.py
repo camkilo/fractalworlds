@@ -156,10 +156,12 @@ def example_visual_effects():
     
     # Create animations
     tree_anim = animation.create_idle_animation("tree")
-    print(f"  🌳 Tree animation: sway {tree_anim['tree']['sway']['enabled']}, leaves rustle {tree_anim['tree']['leaf_rustle']['enabled']}")
+    if tree_anim and 'sway' in tree_anim:
+        print(f"  🌳 Tree animation: sway {tree_anim['sway']['enabled']}, leaves rustle {tree_anim['leaf_rustle']['enabled']}")
     
     creature_anim = animation.create_idle_animation("creature")
-    print(f"  🐉 Creature animation: breathing {creature_anim['creature']['breathing']['enabled']}, idle fidget {creature_anim['creature']['idle_fidget']['enabled']}")
+    if creature_anim and 'breathing' in creature_anim:
+        print(f"  🐉 Creature animation: breathing {creature_anim['breathing']['enabled']}, idle fidget {creature_anim['idle_fidget']['enabled']}")
     
     wind = animation.create_wind_animation(0.6)
     print(f"  💨 Wind: intensity {wind['intensity']}, affects {wind['affects']}")
