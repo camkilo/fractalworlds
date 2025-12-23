@@ -660,6 +660,98 @@ class CombatSystem:
         spell_effect["elemental_multiplier"] = elemental_mult
         
         return spell_effect
+    
+    def calculate_physics_impact(self, attacker_pos: np.ndarray, target_pos: np.ndarray,
+                                force: float, target_mass: float = 1.0) -> Dict[str, Any]:
+        """Calculate physics-based impact and knockback"""
+        direction = target_pos - attacker_pos
+        distance = np.linalg.norm(direction)
+        
+        if distance < 1e-6:
+            return {"knockback": np.array([0, 0, 0]), "force": 0.0}
+        
+        direction = direction / distance
+        
+        # Calculate knockback based on force and mass
+        knockback = direction * (force / target_mass)
+        
+        # Add some randomness for realism
+        knockback += np.random.randn(3) * 0.2
+        
+        return {
+            "knockback": knockback,
+            "force": force,
+            "direction": direction,
+            "impact_damage": force * 0.1  # Additional impact damage
+        }
+    
+    def apply_environmental_combat_effects(self, position: np.ndarray, 
+                                          biome: str, weather: Dict[str, Any]) -> Dict[str, Any]:
+        """Apply environmental effects to combat"""
+        modifiers = {
+            "damage_multiplier": 1.0,
+            "accuracy_modifier": 0.0,
+            "stamina_drain": 1.0,
+            "special_effects": []
+        }
+        
+        # Biome effects
+        if biome == "mountains":
+            modifiers["stamina_drain"] = 1.3  # Altitude
+            modifiers["accuracy_modifier"] = -0.05  # Thin air
+        elif biome == "swamp":
+            modifiers["stamina_drain"] = 1.5  # Difficult terrain
+            modifiers["accuracy_modifier"] = -0.1  # Poor footing
+        elif biome == "magical_grove":
+            modifiers["damage_multiplier"] = 1.2  # Magical enhancement
+            modifiers["special_effects"].append("magical_resonance")
+        
+        # Weather effects
+        if weather:
+            current_weather = weather.get("current_weather", "clear")
+            wind_speed = weather.get("wind", {}).get("speed", 0)
+            
+            if current_weather == "rain":
+                modifiers["accuracy_modifier"] -= 0.1
+                modifiers["special_effects"].append("slippery")
+            elif current_weather == "storm":
+                modifiers["accuracy_modifier"] -= 0.2
+                modifiers["damage_multiplier"] *= 0.9
+                modifiers["special_effects"].append("lightning_chance")
+            elif current_weather == "fog":
+                modifiers["accuracy_modifier"] -= 0.15
+                modifiers["special_effects"].append("reduced_vision")
+            elif current_weather == "snow":
+                modifiers["stamina_drain"] = 1.2
+                modifiers["accuracy_modifier"] -= 0.05
+            
+            # Wind affects ranged attacks
+            if wind_speed > 15:
+                modifiers["accuracy_modifier"] -= wind_speed / 200.0
+                modifiers["special_effects"].append("wind_deflection")
+        
+        return modifiers
+    
+    def calculate_area_of_effect(self, center: np.ndarray, radius: float,
+                                 targets: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """Calculate area of effect damage/effects"""
+        affected = []
+        
+        for target in targets:
+            target_pos = np.array(target.get("position", [0, 0, 0]))
+            distance = np.linalg.norm(target_pos - center)
+            
+            if distance <= radius:
+                # Damage falls off with distance
+                falloff = 1.0 - (distance / radius) ** 2
+                affected.append({
+                    "target": target,
+                    "distance": distance,
+                    "damage_multiplier": falloff,
+                    "knockback_multiplier": falloff * 0.5
+                })
+        
+        return affected
 
 
 class CreatureAI:

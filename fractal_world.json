@@ -2993,207 +2993,1087 @@
     }
   ],
   "rivers": [],
+  "villages": [
+    {
+      "name": "Village_1",
+      "position": [
+        187,
+        64,
+        29.65925484289919
+      ],
+      "size": "medium",
+      "buildings": [
+        {
+          "position": [
+            200.75727369954828,
+            62.608528665872825,
+            39.933347289871
+          ],
+          "type": "temple",
+          "width": 7.399648317146573,
+          "length": 6.748430033740927,
+          "height": 5.5308808210783695,
+          "roof_type": "domed",
+          "material": "mixed",
+          "has_chimney": true,
+          "windows": 2,
+          "door_position": "side"
+        },
+        {
+          "position": [
+            195.75194154283173,
+            71.25960216150894,
+            36.77155071247748
+          ],
+          "type": "temple",
+          "width": 7.992114400280907,
+          "length": 5.557254603155514,
+          "height": 4.392035537927364,
+          "roof_type": "peaked",
+          "material": "wood",
+          "has_chimney": false,
+          "windows": 3,
+          "door_position": "front"
+        },
+        {
+          "position": [
+            193.59320660856548,
+            70.88574676489034,
+            36.29476929343514
+          ],
+          "type": "inn",
+          "width": 7.833135128811923,
+          "length": 4.984012409174366,
+          "height": 3.932241079620486,
+          "roof_type": "domed",
+          "material": "wood",
+          "has_chimney": false,
+          "windows": 3,
+          "door_position": "side"
+        },
+        {
+          "position": [
+            187.67054112577034,
+            72.39155517216604,
+            35.97736359553576
+          ],
+          "type": "temple",
+          "width": 5.557245223112531,
+          "length": 4.740113505673293,
+          "height": 3.200961520020157,
+          "roof_type": "peaked",
+          "material": "mixed",
+          "has_chimney": false,
+          "windows": 2,
+          "door_position": "side"
+        },
+        {
+          "position": [
+            180.8388679839315,
+            75.51676867385947,
+            33.11746501497207
+          ],
+          "type": "temple",
+          "width": 7.4418861450735125,
+          "length": 6.9771512188919225,
+          "height": 4.564924831305508,
+          "roof_type": "flat",
+          "material": "wood",
+          "has_chimney": false,
+          "windows": 2,
+          "door_position": "front"
+        },
+        {
+          "position": [
+            178.30713177101973,
+            72.2678511648573,
+            30.4993907295295
+          ],
+          "type": "workshop",
+          "width": 5.97111665919527,
+          "length": 4.183836516946965,
+          "height": 3.6850608668851716,
+          "roof_type": "domed",
+          "material": "wood",
+          "has_chimney": false,
+          "windows": 4,
+          "door_position": "side"
+        },
+        {
+          "position": [
+            179.1850249434414,
+            65.68550755928491,
+            31.63705741074495
+          ],
+          "type": "house",
+          "width": 5.39168235033107,
+          "length": 4.850610739173261,
+          "height": 4.046796557075332,
+          "roof_type": "flat",
+          "material": "mixed",
+          "has_chimney": true,
+          "windows": 5,
+          "door_position": "front"
+        },
+        {
+          "position": [
+            175.53066655144085,
+            58.95209189621226,
+            30.086772831591098
+          ],
+          "type": "temple",
+          "width": 4.513044932021268,
+          "length": 6.23661958320772,
+          "height": 4.4936721404557325,
+          "roof_type": "domed",
+          "material": "mixed",
+          "has_chimney": false,
+          "windows": 3,
+          "door_position": "side"
+        },
+        {
+          "position": [
+            177.27639766938913,
+            58.22194607008818,
+            29.044684259150138
+          ],
+          "type": "inn",
+          "width": 6.012572465907171,
+          "length": 4.182819002099453,
+          "height": 4.599850807996228,
+          "roof_type": "domed",
+          "material": "mixed",
+          "has_chimney": true,
+          "windows": 2,
+          "door_position": "side"
+        },
+        {
+          "position": [
+            185.71735763159975,
+            53.37523276726324,
+            33.211284123706825
+          ],
+          "type": "workshop",
+          "width": 6.728423749840747,
+          "length": 7.2413791139561035,
+          "height": 4.476932172856466,
+          "roof_type": "domed",
+          "material": "wood",
+          "has_chimney": true,
+          "windows": 3,
+          "door_position": "front"
+        },
+        {
+          "position": [
+            189.53113421896953,
+            57.79037054598539,
+            33.06641743566159
+          ],
+          "type": "workshop",
+          "width": 4.644156470102898,
+          "length": 4.273278609689859,
+          "height": 5.71727295089582,
+          "roof_type": "peaked",
+          "material": "wood",
+          "has_chimney": true,
+          "windows": 4,
+          "door_position": "side"
+        },
+        {
+          "position": [
+            189.08839272912792,
+            59.24709551949075,
+            31.740558952682846
+          ],
+          "type": "inn",
+          "width": 6.375599991246832,
+          "length": 6.535106177320221,
+          "height": 3.319165712683471,
+          "roof_type": "domed",
+          "material": "wood",
+          "has_chimney": true,
+          "windows": 5,
+          "door_position": "side"
+        },
+        {
+          "position": [
+            199.15315654999873,
+            60.70076726331111,
+            40.13934684382647
+          ],
+          "type": "inn",
+          "width": 4.747130952807108,
+          "length": 6.939568340000164,
+          "height": 5.345874597645487,
+          "roof_type": "peaked",
+          "material": "mixed",
+          "has_chimney": true,
+          "windows": 4,
+          "door_position": "front"
+        }
+      ],
+      "population": 26,
+      "biome": "plains",
+      "features": {
+        "market": true,
+        "walls": false,
+        "farms": 1,
+        "well": true,
+        "paths": true
+      },
+      "npcs": [
+        {
+          "id": "npc_0",
+          "role": "merchant",
+          "name": "Villager_0",
+          "level": 6,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": true,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "noble",
+            "age": "elderly",
+            "equipment": "weapons"
+          }
+        },
+        {
+          "id": "npc_1",
+          "role": "priest",
+          "name": "Villager_1",
+          "level": 2,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "peasant",
+            "age": "elderly",
+            "equipment": "weapons"
+          }
+        },
+        {
+          "id": "npc_2",
+          "role": "innkeeper",
+          "name": "Villager_2",
+          "level": 1,
+          "friendly": false,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "noble",
+            "age": "young",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_3",
+          "role": "guard",
+          "name": "Villager_3",
+          "level": 1,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": true,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "noble",
+            "age": "young",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_4",
+          "role": "elder",
+          "name": "Villager_4",
+          "level": 4,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "peasant",
+            "age": "adult",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_5",
+          "role": "innkeeper",
+          "name": "Villager_5",
+          "level": 6,
+          "friendly": false,
+          "dialogue_available": true,
+          "can_trade": true,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "noble",
+            "age": "elderly",
+            "equipment": "weapons"
+          }
+        },
+        {
+          "id": "npc_6",
+          "role": "innkeeper",
+          "name": "Villager_6",
+          "level": 9,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": true,
+          "has_quest": true,
+          "appearance": {
+            "clothing_style": "peasant",
+            "age": "young",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_7",
+          "role": "merchant",
+          "name": "Villager_7",
+          "level": 5,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": true,
+          "has_quest": true,
+          "appearance": {
+            "clothing_style": "peasant",
+            "age": "adult",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_8",
+          "role": "priest",
+          "name": "Villager_8",
+          "level": 2,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": true,
+          "has_quest": true,
+          "appearance": {
+            "clothing_style": "noble",
+            "age": "elderly",
+            "equipment": "tools"
+          }
+        },
+        {
+          "id": "npc_9",
+          "role": "craftsman",
+          "name": "Villager_9",
+          "level": 8,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": true,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "merchant",
+            "age": "elderly",
+            "equipment": "tools"
+          }
+        },
+        {
+          "id": "npc_10",
+          "role": "guard",
+          "name": "Villager_10",
+          "level": 1,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "merchant",
+            "age": "young",
+            "equipment": "tools"
+          }
+        },
+        {
+          "id": "npc_11",
+          "role": "merchant",
+          "name": "Villager_11",
+          "level": 1,
+          "friendly": false,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "merchant",
+            "age": "adult",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_12",
+          "role": "farmer",
+          "name": "Villager_12",
+          "level": 6,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "peasant",
+            "age": "young",
+            "equipment": "weapons"
+          }
+        },
+        {
+          "id": "npc_13",
+          "role": "merchant",
+          "name": "Villager_13",
+          "level": 2,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": true,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "merchant",
+            "age": "adult",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_14",
+          "role": "elder",
+          "name": "Villager_14",
+          "level": 3,
+          "friendly": false,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "peasant",
+            "age": "young",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_15",
+          "role": "elder",
+          "name": "Villager_15",
+          "level": 6,
+          "friendly": false,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "peasant",
+            "age": "adult",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_16",
+          "role": "guard",
+          "name": "Villager_16",
+          "level": 3,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": true,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "peasant",
+            "age": "elderly",
+            "equipment": "weapons"
+          }
+        },
+        {
+          "id": "npc_17",
+          "role": "elder",
+          "name": "Villager_17",
+          "level": 6,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": true,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "peasant",
+            "age": "adult",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_18",
+          "role": "farmer",
+          "name": "Villager_18",
+          "level": 4,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": true,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "merchant",
+            "age": "young",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_19",
+          "role": "elder",
+          "name": "Villager_19",
+          "level": 3,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": true,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "merchant",
+            "age": "elderly",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_20",
+          "role": "innkeeper",
+          "name": "Villager_20",
+          "level": 7,
+          "friendly": false,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "peasant",
+            "age": "adult",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_21",
+          "role": "guard",
+          "name": "Villager_21",
+          "level": 8,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": true,
+          "has_quest": true,
+          "appearance": {
+            "clothing_style": "noble",
+            "age": "young",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_22",
+          "role": "craftsman",
+          "name": "Villager_22",
+          "level": 4,
+          "friendly": false,
+          "dialogue_available": true,
+          "can_trade": true,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "merchant",
+            "age": "young",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_23",
+          "role": "elder",
+          "name": "Villager_23",
+          "level": 6,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "peasant",
+            "age": "elderly",
+            "equipment": "weapons"
+          }
+        },
+        {
+          "id": "npc_24",
+          "role": "child",
+          "name": "Villager_24",
+          "level": 3,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": true,
+          "has_quest": true,
+          "appearance": {
+            "clothing_style": "merchant",
+            "age": "adult",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_25",
+          "role": "priest",
+          "name": "Villager_25",
+          "level": 2,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": true,
+          "appearance": {
+            "clothing_style": "merchant",
+            "age": "elderly",
+            "equipment": "none"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Village_2",
+      "position": [
+        55,
+        202,
+        19.04396514386363
+      ],
+      "size": "small",
+      "buildings": [
+        {
+          "position": [
+            65.63030923588673,
+            200.0020660387489,
+            20.436632685345735
+          ],
+          "type": "shop",
+          "width": 7.749773223006552,
+          "length": 5.856104407757561,
+          "height": 5.369654689030135,
+          "roof_type": "domed",
+          "material": "stone",
+          "has_chimney": false,
+          "windows": 4,
+          "door_position": "side"
+        },
+        {
+          "position": [
+            57.84736937969771,
+            206.22827906504406,
+            22.401566118423666
+          ],
+          "type": "inn",
+          "width": 5.680822871254476,
+          "length": 6.689688536989315,
+          "height": 3.0263458292243257,
+          "roof_type": "flat",
+          "material": "wood",
+          "has_chimney": false,
+          "windows": 2,
+          "door_position": "side"
+        },
+        {
+          "position": [
+            47.662714622336566,
+            210.35954850761814,
+            22.630853236143466
+          ],
+          "type": "inn",
+          "width": 7.002335886526751,
+          "length": 4.723344117066029,
+          "height": 4.714834601790823,
+          "roof_type": "domed",
+          "material": "wood",
+          "has_chimney": true,
+          "windows": 5,
+          "door_position": "front"
+        },
+        {
+          "position": [
+            49.6745068940219,
+            195.48899725260557,
+            14.733692786405053
+          ],
+          "type": "shop",
+          "width": 4.702729521243435,
+          "length": 6.92030125256971,
+          "height": 4.160576834706356,
+          "roof_type": "flat",
+          "material": "stone",
+          "has_chimney": false,
+          "windows": 2,
+          "door_position": "side"
+        },
+        {
+          "position": [
+            58.06802336184911,
+            190.75588666068506,
+            13.097391006419794
+          ],
+          "type": "shop",
+          "width": 6.570426260643533,
+          "length": 6.910925349911067,
+          "height": 5.241960483926967,
+          "roof_type": "peaked",
+          "material": "stone",
+          "has_chimney": true,
+          "windows": 5,
+          "door_position": "front"
+        }
+      ],
+      "population": 15,
+      "biome": "plains",
+      "features": {
+        "market": false,
+        "walls": false,
+        "farms": 1,
+        "well": true,
+        "paths": true
+      },
+      "npcs": [
+        {
+          "id": "npc_0",
+          "role": "guard",
+          "name": "Villager_0",
+          "level": 4,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "peasant",
+            "age": "elderly",
+            "equipment": "tools"
+          }
+        },
+        {
+          "id": "npc_1",
+          "role": "innkeeper",
+          "name": "Villager_1",
+          "level": 3,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "merchant",
+            "age": "elderly",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_2",
+          "role": "child",
+          "name": "Villager_2",
+          "level": 4,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": true,
+          "appearance": {
+            "clothing_style": "noble",
+            "age": "young",
+            "equipment": "weapons"
+          }
+        },
+        {
+          "id": "npc_3",
+          "role": "elder",
+          "name": "Villager_3",
+          "level": 9,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "peasant",
+            "age": "adult",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_4",
+          "role": "craftsman",
+          "name": "Villager_4",
+          "level": 8,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": true,
+          "appearance": {
+            "clothing_style": "noble",
+            "age": "young",
+            "equipment": "weapons"
+          }
+        },
+        {
+          "id": "npc_5",
+          "role": "craftsman",
+          "name": "Villager_5",
+          "level": 4,
+          "friendly": false,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": true,
+          "appearance": {
+            "clothing_style": "noble",
+            "age": "adult",
+            "equipment": "weapons"
+          }
+        },
+        {
+          "id": "npc_6",
+          "role": "innkeeper",
+          "name": "Villager_6",
+          "level": 4,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": true,
+          "appearance": {
+            "clothing_style": "noble",
+            "age": "young",
+            "equipment": "weapons"
+          }
+        },
+        {
+          "id": "npc_7",
+          "role": "farmer",
+          "name": "Villager_7",
+          "level": 2,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": true,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "peasant",
+            "age": "adult",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_8",
+          "role": "craftsman",
+          "name": "Villager_8",
+          "level": 3,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": true,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "noble",
+            "age": "young",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_9",
+          "role": "priest",
+          "name": "Villager_9",
+          "level": 1,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": true,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "merchant",
+            "age": "young",
+            "equipment": "weapons"
+          }
+        }
+      ]
+    }
+  ],
+  "caves": [
+    {
+      "entrance_position": [
+        157,
+        150,
+        27.778392398714157
+      ],
+      "size": 21,
+      "depth": 28.05928791623618,
+      "type": "natural",
+      "chambers": [
+        {
+          "id": 0,
+          "size": 7.20857333597717,
+          "height": 6.703505854122106,
+          "connected_to": [],
+          "has_treasure": true,
+          "danger_level": 4
+        },
+        {
+          "id": 1,
+          "size": 5.611490575395717,
+          "height": 7.137934804502784,
+          "connected_to": [
+            2,
+            3
+          ],
+          "has_treasure": false,
+          "danger_level": 3
+        },
+        {
+          "id": 2,
+          "size": 4.100074163247663,
+          "height": 2.645396797954447,
+          "connected_to": [
+            0,
+            3
+          ],
+          "has_treasure": false,
+          "danger_level": 3
+        },
+        {
+          "id": 3,
+          "size": 5.838121653248319,
+          "height": 2.7600509537468993,
+          "connected_to": [
+            2
+          ],
+          "has_treasure": false,
+          "danger_level": 2
+        }
+      ],
+      "resources": {
+        "minerals": 11,
+        "crystals": 2,
+        "rare_ores": 0
+      },
+      "creatures": {
+        "count": 5,
+        "types": [
+          "spiders"
+        ]
+      },
+      "features": {
+        "stalactites": true,
+        "underground_water": true,
+        "glowing_fungi": false,
+        "ancient_carvings": false
+      },
+      "lighting": {
+        "ambient": 0.1,
+        "has_torches": false,
+        "bioluminescent": false
+      }
+    },
+    {
+      "entrance_position": [
+        190,
+        96,
+        38.15621778292164
+      ],
+      "size": 16,
+      "depth": 39.82953456397108,
+      "type": "natural",
+      "chambers": [
+        {
+          "id": 0,
+          "size": 5.622624590842811,
+          "height": 7.549769182264866,
+          "connected_to": [],
+          "has_treasure": false,
+          "danger_level": 2
+        },
+        {
+          "id": 1,
+          "size": 6.544350512324487,
+          "height": 5.850839762295793,
+          "connected_to": [],
+          "has_treasure": false,
+          "danger_level": 2
+        },
+        {
+          "id": 2,
+          "size": 5.710358044568558,
+          "height": 3.6003991668544124,
+          "connected_to": [],
+          "has_treasure": false,
+          "danger_level": 3
+        }
+      ],
+      "resources": {
+        "minerals": 6,
+        "crystals": 0,
+        "rare_ores": 1
+      },
+      "creatures": {
+        "count": 7,
+        "types": [
+          "elementals"
+        ]
+      },
+      "features": {
+        "stalactites": true,
+        "underground_water": true,
+        "glowing_fungi": false,
+        "ancient_carvings": false
+      },
+      "lighting": {
+        "ambient": 0.1,
+        "has_torches": true,
+        "bioluminescent": false
+      }
+    },
+    {
+      "entrance_position": [
+        165,
+        138,
+        32.6829254456109
+      ],
+      "size": 18,
+      "depth": 12.141033451959252,
+      "type": "mines",
+      "chambers": [
+        {
+          "id": 0,
+          "size": 8.765423721907936,
+          "height": 7.698530897859024,
+          "connected_to": [],
+          "has_treasure": false,
+          "danger_level": 2
+        },
+        {
+          "id": 1,
+          "size": 5.339779454766082,
+          "height": 3.5849929089390873,
+          "connected_to": [],
+          "has_treasure": true,
+          "danger_level": 2
+        },
+        {
+          "id": 2,
+          "size": 7.192093954333947,
+          "height": 2.4778946109317457,
+          "connected_to": [
+            0
+          ],
+          "has_treasure": false,
+          "danger_level": 3
+        }
+      ],
+      "resources": {
+        "minerals": 17,
+        "crystals": 0,
+        "rare_ores": 0
+      },
+      "creatures": {
+        "count": 4,
+        "types": [
+          "bats",
+          "elementals"
+        ]
+      },
+      "features": {
+        "stalactites": true,
+        "underground_water": false,
+        "glowing_fungi": false,
+        "ancient_carvings": true
+      },
+      "lighting": {
+        "ambient": 0.1,
+        "has_torches": true,
+        "bioluminescent": true
+      }
+    }
+  ],
   "creatures": [
     {
-      "type": "Golden Bear",
+      "type": "Forest Sprite",
       "position": [
-        194,
-        74,
-        36.86661547385792
+        221,
+        47,
+        35.59102610483409
       ],
-      "pattern": "golden_ratio",
-      "size": "large",
-      "geometric_complexity": 10,
-      "color_palette": [
-        [
-          184,
-          134,
-          11
-        ],
-        [
-          218,
-          165,
-          32
-        ],
-        [
-          238,
-          232,
-          170
-        ]
-      ],
-      "magic_level": 0.16000000000000003,
-      "glow_intensity": 0.11207386382807841,
-      "animation_speed": 0.8888054564909649,
-      "movement_pattern": {
-        "type": "random_walk",
-        "amplitude": 2.71443471971316,
-        "frequency": 0.6734298757710075,
-        "phase": 2.086000735118693
-      },
-      "biome": "forest"
-    },
-    {
-      "type": "Crystal Spider",
-      "position": [
-        164,
-        164,
-        20.099871943023498
-      ],
-      "pattern": "octahedral",
+      "pattern": "nature",
       "size": "small",
+      "is_humanoid": true,
       "geometric_complexity": 5,
-      "color_palette": [
-        [
-          135,
-          206,
-          235
-        ],
-        [
-          176,
-          224,
-          230
-        ],
-        [
-          240,
-          248,
-          255
-        ]
-      ],
-      "magic_level": 0.32000000000000006,
-      "glow_intensity": 0.2563218216405921,
-      "animation_speed": 1.1739176649125436,
-      "movement_pattern": {
-        "type": "random_walk",
-        "amplitude": 3.6206169830640498,
-        "frequency": 1.7722330973467155,
-        "phase": 2.6550104945816324
-      },
-      "biome": "forest"
-    },
-    {
-      "type": "Crystal Spider",
-      "position": [
-        185,
-        15,
-        36.65117247984224
-      ],
-      "pattern": "octahedral",
-      "size": "small",
-      "geometric_complexity": 10,
-      "color_palette": [
-        [
-          135,
-          206,
-          235
-        ],
-        [
-          176,
-          224,
-          230
-        ],
-        [
-          240,
-          248,
-          255
-        ]
-      ],
-      "magic_level": 0.32000000000000006,
-      "glow_intensity": 0.23608929572897203,
-      "animation_speed": 1.188268702209084,
-      "movement_pattern": {
-        "type": "random_walk",
-        "amplitude": 2.6031896441236864,
-        "frequency": 0.4313854993939592,
-        "phase": 5.8003577092192575
-      },
-      "biome": "plains"
-    },
-    {
-      "type": "Geometric Wolf",
-      "position": [
-        32,
-        25,
-        33.731076298455854
-      ],
-      "pattern": "hexagonal",
-      "size": "medium",
-      "geometric_complexity": 5,
-      "color_palette": [
-        [
-          255,
-          215,
-          0
-        ],
-        [
-          255,
-          165,
-          0
-        ],
-        [
-          255,
-          140,
-          0
-        ]
-      ],
-      "magic_level": 0.24,
-      "glow_intensity": 0.15365703268632816,
-      "animation_speed": 1.0618059632054253,
-      "movement_pattern": {
-        "type": "zigzag",
-        "amplitude": 1.9840124091743663,
-        "frequency": 0.6904193504263079,
-        "phase": 1.5405346459469482
-      },
-      "biome": "forest"
-    },
-    {
-      "type": "Golden Bear",
-      "position": [
-        120,
-        135,
-        15.30729894054241
-      ],
-      "pattern": "golden_ratio",
-      "size": "large",
-      "geometric_complexity": 9,
-      "color_palette": [
-        [
-          184,
-          134,
-          11
-        ],
-        [
-          218,
-          165,
-          32
-        ],
-        [
-          238,
-          232,
-          170
-        ]
-      ],
-      "magic_level": 0.16000000000000003,
-      "glow_intensity": 0.1568488750786833,
-      "animation_speed": 0.8418302893627431,
-      "movement_pattern": {
-        "type": "levy_flight",
-        "amplitude": 3.37869434047685,
-        "frequency": 0.8396914809784523,
-        "phase": 1.1625675761229017
-      },
-      "biome": "tundra"
-    },
-    {
-      "type": "Spiral Serpent",
-      "position": [
-        167,
-        44,
-        33.24416007138233
-      ],
-      "pattern": "fibonacci",
-      "size": "medium",
-      "geometric_complexity": 9,
       "color_palette": [
         [
           34,
@@ -3201,9 +4081,9 @@
           34
         ],
         [
-          50,
-          205,
-          50
+          0,
+          255,
+          127
         ],
         [
           144,
@@ -3211,630 +4091,110 @@
           144
         ]
       ],
-      "magic_level": 0.48,
-      "glow_intensity": 0.3206645223428097,
-      "animation_speed": 1.3142135792565797,
+      "magic_level": 0.6400000000000001,
+      "glow_intensity": 0.6160841560344448,
+      "animation_speed": 1.1675218979991502,
       "movement_pattern": {
         "type": "circular",
-        "amplitude": 4.224488620435347,
-        "frequency": 1.919577647260546,
-        "phase": 3.811451454464489
+        "amplitude": 4.352343923795144,
+        "frequency": 0.6831814405831167,
+        "phase": 3.605505409013839
       },
-      "biome": "desert"
-    }
-  ],
-  "structures": [
-    {
-      "type": "Crystal Spire",
-      "position": [
-        56,
-        92,
-        23.63307254106246
-      ],
-      "fractal_iterations": 7,
-      "style": "crystalline",
-      "height": 26.02660078661089,
-      "base_size": 16.396165536007537,
-      "complexity": 0.8239596690713582,
-      "magic_runes": 11,
-      "glow_intensity": 0.7460050944284313,
-      "glow_color": [
-        202,
-        191,
-        251
-      ],
-      "geometric_pattern": [
-        {
-          "shape": "hexagon",
-          "scale": 0.8,
-          "rotation": 0
+      "biome": "plains",
+      "textures": {
+        "base_texture": {
+          "type": "procedural",
+          "pattern": "nature",
+          "resolution": 1024,
+          "detail_level": 0.7886858002257153
         },
-        {
-          "shape": "hexagon",
-          "scale": 0.8,
-          "rotation": 60
+        "normal_map": {
+          "enabled": true,
+          "strength": 0.7189942750284357,
+          "detail": "high"
         },
-        {
-          "shape": "hexagon",
-          "scale": 0.8,
-          "rotation": 120
+        "roughness": 0.21659436753292316,
+        "metallic": 0.0,
+        "subsurface_scattering": {
+          "enabled": true,
+          "radius": 0.5,
+          "color": [
+            255,
+            200,
+            180
+          ]
         },
-        {
-          "shape": "hexagon",
-          "scale": 0.8,
-          "rotation": 180
+        "iridescence": 0.0
+      },
+      "animations": {
+        "idle": {
+          "breathing": {
+            "enabled": true,
+            "rate": 0.3841850786234317,
+            "amplitude": 0.060842556539183607
+          },
+          "fidget": {
+            "enabled": true,
+            "frequency": 0.2288418067428243,
+            "variations": [
+              "look_around",
+              "stretch",
+              "shake"
+            ]
+          }
         },
-        {
-          "shape": "hexagon",
-          "scale": 0.8,
-          "rotation": 240
+        "movement": {
+          "walk": {
+            "speed": 1.0,
+            "stride_length": 0.8,
+            "bob_amplitude": 0.1
+          },
+          "run": {
+            "speed": 2.5,
+            "stride_length": 1.2,
+            "bob_amplitude": 0.15
+          }
         },
-        {
-          "shape": "hexagon",
-          "scale": 0.8,
-          "rotation": 300
+        "combat": {
+          "attack": {
+            "windup_time": 0.3,
+            "strike_time": 0.2,
+            "recovery_time": 0.4
+          },
+          "defend": {
+            "reaction_time": 0.15
+          },
+          "hurt": {
+            "flinch_duration": 0.3,
+            "knockback": 0.9625316573485826
+          }
+        },
+        "facial_expressions": {
+          "enabled": true,
+          "expressions": [
+            "neutral",
+            "alert",
+            "aggressive",
+            "friendly",
+            "surprised"
+          ],
+          "blend_time": 0.2,
+          "eye_blink_rate": 0.2
+        },
+        "gestures": {
+          "enabled": true,
+          "types": [
+            "point",
+            "wave",
+            "gesture",
+            "cast_spell"
+          ]
         }
-      ]
-    },
-    {
-      "type": "Ancient Observatory",
-      "position": [
-        69,
-        212,
-        21.046281684230088
-      ],
-      "fractal_iterations": 5,
-      "style": "spiral",
-      "height": 20.31631711983288,
-      "base_size": 12.18718622830133,
-      "complexity": 0.9255902984216545,
-      "magic_runes": 6,
-      "glow_intensity": 0.9230667194093619,
-      "glow_color": [
-        253,
-        205,
-        213
-      ],
-      "geometric_pattern": [
-        {
-          "shape": "arc",
-          "scale": 1.0,
-          "rotation": 0.0
-        },
-        {
-          "shape": "arc",
-          "scale": 1.618,
-          "rotation": 137.5
-        },
-        {
-          "shape": "arc",
-          "scale": 2.6179240000000004,
-          "rotation": 275.0
-        },
-        {
-          "shape": "arc",
-          "scale": 4.235801032000001,
-          "rotation": 412.5
-        },
-        {
-          "shape": "arc",
-          "scale": 6.853526069776001,
-          "rotation": 550.0
-        }
-      ]
-    },
-    {
-      "type": "Ancient Observatory",
-      "position": [
-        29,
-        100,
-        22.952689537698113
-      ],
-      "fractal_iterations": 5,
-      "style": "spiral",
-      "height": 39.23657298954801,
-      "base_size": 13.749099479791962,
-      "complexity": 0.8111745962168302,
-      "magic_runes": 5,
-      "glow_intensity": 0.8012572465907172,
-      "glow_color": [
-        178,
-        149,
-        253
-      ],
-      "geometric_pattern": [
-        {
-          "shape": "arc",
-          "scale": 1.0,
-          "rotation": 0.0
-        },
-        {
-          "shape": "arc",
-          "scale": 1.618,
-          "rotation": 137.5
-        },
-        {
-          "shape": "arc",
-          "scale": 2.6179240000000004,
-          "rotation": 275.0
-        },
-        {
-          "shape": "arc",
-          "scale": 4.235801032000001,
-          "rotation": 412.5
-        },
-        {
-          "shape": "arc",
-          "scale": 6.853526069776001,
-          "rotation": 550.0
-        }
-      ]
-    }
-  ],
-  "lighting": {
-    "quality": "cinematic",
-    "ambient": {
-      "color": [
-        135,
-        206,
-        235
-      ],
-      "intensity": 0.3
-    },
-    "directional": {
-      "type": "sun",
-      "position": [
-        0.5,
-        0.8,
-        0.3
-      ],
-      "color": [
-        255,
-        250,
-        205
-      ],
-      "intensity": 0.8,
-      "cast_shadows": true,
-      "shadow_quality": "high"
-    },
-    "magical_lights": [
-      {
-        "type": "point",
-        "intensity": 0.8770058034234776,
-        "color": [
-          207,
-          250,
-          251
-        ],
-        "radius": 10.382963968331826,
-        "flicker": true,
-        "flicker_speed": 1.552570413068973
       },
-      {
-        "type": "point",
-        "intensity": 0.516484389906602,
-        "color": [
-          155,
-          114,
-          219
-        ],
-        "radius": 22.571659032416946,
-        "flicker": true,
-        "flicker_speed": 1.6816876129256748
-      },
-      {
-        "type": "point",
-        "intensity": 0.5066629426949629,
-        "color": [
-          186,
-          226,
-          203
-        ],
-        "radius": 11.073057184179456,
-        "flicker": true,
-        "flicker_speed": 1.981685594759531
-      },
-      {
-        "type": "point",
-        "intensity": 0.8915151987370782,
-        "color": [
-          229,
-          142,
-          221
-        ],
-        "radius": 25.0212269626397,
-        "flicker": true,
-        "flicker_speed": 1.96083261574013
-      },
-      {
-        "type": "point",
-        "intensity": 0.6732690281055527,
-        "color": [
-          198,
-          198,
-          231
-        ],
-        "radius": 26.073335758808664,
-        "flicker": true,
-        "flicker_speed": 0.8339780007676367
-      },
-      {
-        "type": "point",
-        "intensity": 0.6654812047599482,
-        "color": [
-          158,
-          233,
-          202
-        ],
-        "radius": 18.963310502151337,
-        "flicker": true,
-        "flicker_speed": 1.0559042145433293
-      },
-      {
-        "type": "point",
-        "intensity": 0.7757073889751208,
-        "color": [
-          252,
-          102,
-          205
-        ],
-        "radius": 22.2931074877235,
-        "flicker": true,
-        "flicker_speed": 1.7397548667373477
-      },
-      {
-        "type": "point",
-        "intensity": 0.5906081751374332,
-        "color": [
-          176,
-          205,
-          240
-        ],
-        "radius": 23.472461770819123,
-        "flicker": true,
-        "flicker_speed": 0.9165002436155711
-      },
-      {
-        "type": "point",
-        "intensity": 0.5327301677029979,
-        "color": [
-          172,
-          136,
-          221
-        ],
-        "radius": 18.3307915979855,
-        "flicker": true,
-        "flicker_speed": 0.6262805460852225
-      },
-      {
-        "type": "point",
-        "intensity": 0.9418163594003243,
-        "color": [
-          192,
-          146,
-          211
-        ],
-        "radius": 10.44008957242864,
-        "flicker": true,
-        "flicker_speed": 1.1372943937124564
-      },
-      {
-        "type": "point",
-        "intensity": 0.5822363822924186,
-        "color": [
-          248,
-          126,
-          216
-        ],
-        "radius": 22.2308010371986,
-        "flicker": true,
-        "flicker_speed": 0.5586265487201385
-      },
-      {
-        "type": "point",
-        "intensity": 0.6619748415930924,
-        "color": [
-          152,
-          136,
-          215
-        ],
-        "radius": 13.656559075756538,
-        "flicker": true,
-        "flicker_speed": 1.5764162572153462
-      },
-      {
-        "type": "point",
-        "intensity": 0.9205855054546317,
-        "color": [
-          248,
-          219,
-          231
-        ],
-        "radius": 11.653526730849377,
-        "flicker": true,
-        "flicker_speed": 1.036932541915622
-      },
-      {
-        "type": "point",
-        "intensity": 0.9068360633051691,
-        "color": [
-          236,
-          102,
-          229
-        ],
-        "radius": 14.72710741575921,
-        "flicker": true,
-        "flicker_speed": 1.4053349438017646
-      },
-      {
-        "type": "point",
-        "intensity": 0.7765745678330427,
-        "color": [
-          214,
-          167,
-          221
-        ],
-        "radius": 24.13035841924671,
-        "flicker": true,
-        "flicker_speed": 0.8027647285915077
-      },
-      {
-        "type": "point",
-        "intensity": 0.5805195587628622,
-        "color": [
-          209,
-          206,
-          246
-        ],
-        "radius": 26.651213940585414,
-        "flicker": true,
-        "flicker_speed": 1.4444603619366925
-      },
-      {
-        "type": "point",
-        "intensity": 0.5341598262112324,
-        "color": [
-          163,
-          127,
-          200
-        ],
-        "radius": 13.811024217831536,
-        "flicker": true,
-        "flicker_speed": 1.794539441478334
-      },
-      {
-        "type": "point",
-        "intensity": 0.9528788251493032,
-        "color": [
-          181,
-          246,
-          236
-        ],
-        "radius": 28.473368296210218,
-        "flicker": true,
-        "flicker_speed": 1.416984938892213
-      },
-      {
-        "type": "point",
-        "intensity": 0.9061944144199935,
-        "color": [
-          196,
-          145,
-          241
-        ],
-        "radius": 26.050193975372423,
-        "flicker": true,
-        "flicker_speed": 1.6621724605697858
-      },
-      {
-        "type": "point",
-        "intensity": 0.6784670670745389,
-        "color": [
-          198,
-          220,
-          236
-        ],
-        "radius": 15.635223080277107,
-        "flicker": true,
-        "flicker_speed": 1.518431539632159
-      }
-    ],
-    "volumetric_fog": {
-      "enabled": true,
-      "density": 0.02,
-      "color": [
-        200,
-        200,
-        220
-      ]
-    },
-    "god_rays": {
-      "enabled": true,
-      "intensity": 0.4
-    }
-  },
-  "sky": {
-    "type": "dynamic",
-    "time_of_day": "dawn",
-    "cloud_coverage": 0.6094111656525557,
-    "cloud_pattern": "fractal_noise",
-    "cloud_layers": [
-      {
-        "altitude": 1000,
-        "speed": 1.330347388022541,
-        "opacity": 0.4439619341102344,
-        "fractal_scale": 54.90838095901961
-      },
-      {
-        "altitude": 2000,
-        "speed": 1.3159671492937717,
-        "opacity": 0.35918162605536746,
-        "fractal_scale": 152.66400291514324
-      },
-      {
-        "altitude": 3500,
-        "speed": 1.2127555447745442,
-        "opacity": 0.5573639987528147,
-        "fractal_scale": 186.40543059359112
-      }
-    ],
-    "celestial_bodies": [
-      {
-        "type": "sun",
-        "position": [
-          0.5,
-          0.3
-        ],
-        "size": 1.0,
-        "intensity": 1.0,
-        "color": [
-          255,
-          250,
-          205
-        ]
-      },
-      {
-        "type": "moon",
-        "position": [
-          -0.3,
-          0.8
-        ],
-        "size": 0.5,
-        "intensity": 0.3,
-        "color": [
-          220,
-          220,
-          255
-        ],
-        "phase": 0.6953128206147603
-      }
-    ],
-    "stars": {
-      "visible": true,
-      "count": 1000,
-      "twinkle": true,
-      "constellations": true
-    },
-    "aurora": {
-      "enabled": true,
-      "colors": [
-        [
-          0,
-          255,
-          127
-        ],
-        [
-          138,
-          43,
-          226
-        ],
-        [
-          0,
-          191,
-          255
-        ]
-      ],
-      "wave_pattern": "sinusoidal",
-      "intensity": 0.7627426193891842
-    },
-    "atmospheric_scattering": true,
-    "color_grading": {
-      "temperature": 5540.28466495347,
-      "tint": 0.01752307256868002,
-      "saturation": 1.1154275626288848
-    }
-  },
-  "features": {
-    "fractal_terrain": true,
-    "procedural_forests": true,
-    "algorithmic_rivers": true,
-    "geometric_creatures": true,
-    "fractal_structures": true,
-    "cinematic_lighting": true,
-    "dynamic_sky": true,
-    "magical_effects": true,
-    "animations_enabled": true
-  },
-  "terrain_sample": [
-    [
-      0.3880963521781338,
-      0.8135404697714376,
-      0.8876546949639372,
-      0.8540718796562424,
-      0.8537728962416297,
-      0.8738108504545455,
-      0.6453567477415136,
-      0.51156838442186
-    ],
-    [
-      0.4663819603701846,
-      0.6206403006853444,
-      0.7811810899063911,
-      0.8385770886713761,
-      0.8335028650658661,
-      0.710270286327515,
-      0.68924162232768,
-      0.6264246361656718
-    ],
-    [
-      0.5017313579589832,
-      0.4277718535107585,
-      0.5803566781609933,
-      0.8036115625367676,
-      0.7180984498570291,
-      0.6478029775132306,
-      0.7015944795569726,
-      0.8017594119847035
-    ],
-    [
-      0.5318534637644724,
-      0.4459342889035158,
-      0.43149991572517027,
-      0.4508572999969456,
-      0.5853926730392072,
-      0.7185252634916158,
-      0.7804531281194912,
-      0.6906572909983247
-    ],
-    [
-      0.5322591731175171,
-      0.530815032987193,
-      0.3259493815606236,
-      0.24661291193804863,
-      0.4206145417495671,
-      0.7507678574459872,
-      0.7134934904993155,
-      0.5753530552824226
-    ],
-    [
-      0.5723027966554876,
-      0.39219751889058724,
-      0.326212413740729,
-      0.27982317199624523,
-      0.39413909337102865,
-      0.4389212088724654,
-      0.5047917712053215,
-      0.5127818016364087
-    ],
-    [
-      0.574950400023777,
-      0.38418867153488717,
-      0.3711667856202153,
-      0.49140131654241576,
-      0.29546644970815455,
-      0.1623009351094193,
-      0.2799877383789246,
-      0.4617209820758141
-    ],
-    [
-      0.5851803704674216,
-      0.5501278186744104,
-      0.5319167172310201,
-      0.3562276479980835,
-      0.2315091236843332,
-      0.12705828096514424,
-      0.1343246016263042,
-      0.19035998783878832
-    ]
-  ]
-}
+      "equipment": {
+        "armor": {
+          "type": "ancient",
+          "coverage": 0.7430680597200067,
+          "material": "crafted",
+          "color": [
+            
