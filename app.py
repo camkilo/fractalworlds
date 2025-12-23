@@ -4,12 +4,11 @@ Flask Web Server for Fractal Worlds RPG
 Provides web API endpoints for the game, enabling deployment to Render and similar platforms.
 """
 
-from flask import Flask, render_template, jsonify, request
+from flask import Flask, jsonify, request
 from game_integration import FractalRPG
 from fractal_world import WorldConfig
-from gameplay import ElementType, Item
-import json
 import os
+import uuid
 
 app = Flask(__name__, static_folder='.')
 
@@ -19,8 +18,11 @@ game_sessions = {}
 @app.route('/')
 def home():
     """Serve the main HTML page"""
-    with open('index.html', 'r') as f:
-        return f.read()
+    try:
+        with open('index.html', 'r') as f:
+            return f.read()
+    except FileNotFoundError:
+        return jsonify({'error': 'index.html not found'}), 404
 
 @app.route('/api/game/new', methods=['POST'])
 def new_game():
@@ -40,7 +42,7 @@ def new_game():
     game = FractalRPG(config, player_name)
     game.initialize_game()
     
-    session_id = f"game_{len(game_sessions)}"
+    session_id = f"game_{uuid.uuid4().hex[:8]}"
     game_sessions[session_id] = game
     
     return jsonify({
