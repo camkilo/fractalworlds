@@ -1,0 +1,1693 @@
+{
+  "config": {
+    "seed": 12345,
+    "world_size": 128,
+    "fractal_iterations": 8,
+    "terrain_roughness": 0.6,
+    "water_level": 0.3,
+    "tree_density": 0.4,
+    "creature_density": 0.15,
+    "magic_intensity": 0.85,
+    "lighting_quality": "cinematic",
+    "enable_animations": true
+  },
+  "terrain_stats": {
+    "size": 128,
+    "min_elevation": 0.0,
+    "max_elevation": 1.0,
+    "avg_elevation": 0.5245104491444683
+  },
+  "biome_distribution": {
+    "desert": 206,
+    "forest": 4882,
+    "magical_grove": 103,
+    "mountains": 1670,
+    "plains": 6062,
+    "swamp": 97,
+    "tundra": 793,
+    "water": 2571
+  },
+  "forests": [
+    {
+      "center": [
+        80,
+        20
+      ],
+      "trees": [
+        {
+          "position": [
+            70,
+            25,
+            34.27587592448426
+          ],
+          "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+          "height": 7.122724884347642,
+          "angle": 25,
+          "is_magical": false,
+          "glow_intensity": 0,
+          "foliage_density": 0.9821064962869739
+        },
+        {
+          "position": [
+            85,
+            11,
+            34.27587592448426
+          ],
+          "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+          "height": 5.733711180977722,
+          "angle": 25,
+          "is_magical": false,
+          "glow_intensity": 0,
+          "foliage_density": 0.8775692389235622
+        },
+        {
+          "position": [
+            87,
+            25,
+            34.27587592448426
+          ],
+          "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+          "height": 5.18634483374518,
+          "angle": 25,
+          "is_magical": false,
+          "glow_intensity": 0,
+          "foliage_density": 0.8582540626175579
+        },
+        {
+          "position": [
+            73,
+            25,
+            34.27587592448426
+          ],
+          "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+          "height": 4.502445410598376,
+          "angle": 25,
+          "is_magical": false,
+          "glow_intensity": 0,
+          "foliage_density": 0.7485616236163045
+        },
+        {
+          "position": [
+            78,
+            11,
+            34.27587592448426
+          ],
+          "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+          "height": 4.468974890777465,
+          "angle": 25,
+          "is_magical": false,
+          "glow_intensity": 0,
+          "foliage_density": 0.8977282389977688
+        },
+        {
+          "position": [
+            82,
+            22,
+            34.27587592448426
+          ],
+          "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+          "height": 7.398758935765432,
+          "angle": 25,
+          "is_magical": false,
+          "glow_intensity": 0,
+          "foliage_density": 0.9562656467788181
+        }
+      ],
+      "biome": "forest"
+    },
+    {
+      "center": [
+        100,
+        20
+      ],
+      "trees": [
+        {
+          "position": [
+            99,
+            28,
+            32.39976620900399
+          ],
+          "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+          "height": 5.788216644467682,
+          "angle": 25,
+          "is_magical": false,
+          "glow_intensity": 0,
+          "foliage_density": 0.8107184669320047
+        },
+        {
+          "position": [
+            101,
+            28,
+            32.39976620900399
+          ],
+          "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+          "height": 5.358452645293827,
+          "angle": 25,
+          "is_magical": false,
+          "glow_intensity": 0,
+          "foliage_density": 0.9037061165419683
+        },
+        {
+          "position": [
+            95,
+            18,
+            32.39976620900399
+          ],
+          "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+          "height": 5.620735689395753,
+          "angle": 25,
+          "is_magical": false,
+          "glow_intensity": 0,
+          "foliage_density": 0.7961441462211098
+        },
+        {
+          "position": [
+            90,
+            26,
+            32.39976620900399
+          ],
+          "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+          "height": 4.896574344126787,
+          "angle": 25,
+          "is_magical": false,
+          "glow_intensity": 0,
+          "foliage_density": 0.7231860552529256
+        },
+        {
+          "position": [
+            91,
+            22,
+            32.39976620900399
+          ],
+          "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+          "height": 5.863062477189113,
+          "angle": 25,
+          "is_magical": false,
+          "glow_intensity": 0,
+          "foliage_density": 0.8857663601254582
+        },
+        {
+          "position": [
+            104,
+            21,
+            32.39976620900399
+          ],
+          "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+          "height": 4.465066544000001,
+          "angle": 25,
+          "is_magical": false,
+          "glow_intensity": 0,
+          "foliage_density": 0.6552712152017869
+        },
+        {
+          "position": [
+            109,
+            14,
+            32.39976620900399
+          ],
+          "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+          "height": 7.824107921495261,
+          "angle": 25,
+          "is_magical": false,
+          "glow_intensity": 0,
+          "foliage_density": 0.8566838392028782
+        },
+        {
+          "position": [
+            102,
+            10,
+            32.39976620900399
+          ],
+          "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+          "height": 7.079698163889555,
+          "angle": 25,
+          "is_magical": false,
+          "glow_intensity": 0,
+          "foliage_density": 0.6625570336007234
+        },
+        {
+          "position": [
+            98,
+            10,
+            32.39976620900399
+          ],
+          "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+          "height": 7.691750472845581,
+          "angle": 25,
+          "is_magical": false,
+          "glow_intensity": 0,
+          "foliage_density": 0.9143344063431388
+        },
+        {
+          "position": [
+            108,
+            27,
+            32.39976620900399
+          ],
+          "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+          "height": 5.743365599521065,
+          "angle": 25,
+          "is_magical": false,
+          "glow_intensity": 0,
+          "foliage_density": 0.6033624953148712
+        },
+        {
+          "position": [
+            101,
+            14,
+            32.39976620900399
+          ],
+          "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+          "height": 4.592665436006248,
+          "angle": 25,
+          "is_magical": false,
+          "glow_intensity": 0,
+          "foliage_density": 0.7933124532869462
+        },
+        {
+          "position": [
+            96,
+            29,
+            32.39976620900399
+          ],
+          "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+          "height": 7.501818680828183,
+          "angle": 25,
+          "is_magical": false,
+          "glow_intensity": 0,
+          "foliage_density": 0.7287120803162783
+        },
+        {
+          "position": [
+            97,
+            24,
+            32.39976620900399
+          ],
+          "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+          "height": 3.947821568565615,
+          "angle": 25,
+          "is_magical": false,
+          "glow_intensity": 0,
+          "foliage_density": 0.7936527572893052
+        }
+      ],
+      "biome": "forest"
+    }
+  ],
+  "rivers": [],
+  "villages": [
+    {
+      "name": "Village_1",
+      "position": [
+        60,
+        33,
+        35.64268311961755
+      ],
+      "size": "small",
+      "buildings": [
+        {
+          "position": [
+            72.3545919037449,
+            32.34618069981018,
+            36.94316166179195
+          ],
+          "type": "shop",
+          "width": 4.180714033126522,
+          "length": 5.712459567958471,
+          "height": 4.998830762870522,
+          "roof_type": "flat",
+          "material": "wood",
+          "has_chimney": false,
+          "windows": 3,
+          "door_position": "front"
+        },
+        {
+          "position": [
+            63.50462637537942,
+            41.40566487710302,
+            34.32474408239462
+          ],
+          "type": "workshop",
+          "width": 6.433865287235869,
+          "length": 6.591185603493805,
+          "height": 5.048800054782797,
+          "roof_type": "domed",
+          "material": "mixed",
+          "has_chimney": false,
+          "windows": 4,
+          "door_position": "front"
+        },
+        {
+          "position": [
+            52.71425560214678,
+            36.83995773074648,
+            35.64912657793792
+          ],
+          "type": "house",
+          "width": 5.7910846911419185,
+          "length": 4.3426796659431375,
+          "height": 4.675892295273505,
+          "roof_type": "domed",
+          "material": "wood",
+          "has_chimney": true,
+          "windows": 2,
+          "door_position": "front"
+        },
+        {
+          "position": [
+            51.25100051860019,
+            28.077061000199166,
+            40.976862639932214
+          ],
+          "type": "house",
+          "width": 6.87947901693334,
+          "length": 5.874010199591496,
+          "height": 3.2304761852148376,
+          "roof_type": "flat",
+          "material": "wood",
+          "has_chimney": false,
+          "windows": 4,
+          "door_position": "side"
+        },
+        {
+          "position": [
+            63.73275610407329,
+            22.990810922496337,
+            42.734272563975516
+          ],
+          "type": "temple",
+          "width": 7.711498670260458,
+          "length": 4.898744850796899,
+          "height": 4.027596439073724,
+          "roof_type": "domed",
+          "material": "stone",
+          "has_chimney": true,
+          "windows": 4,
+          "door_position": "front"
+        }
+      ],
+      "population": 15,
+      "biome": "forest",
+      "features": {
+        "market": false,
+        "walls": false,
+        "farms": 3,
+        "well": true,
+        "paths": true
+      },
+      "npcs": [
+        {
+          "id": "npc_0",
+          "role": "craftsman",
+          "name": "Villager_0",
+          "level": 4,
+          "friendly": false,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": true,
+          "appearance": {
+            "clothing_style": "peasant",
+            "age": "elderly",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_1",
+          "role": "innkeeper",
+          "name": "Villager_1",
+          "level": 8,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": true,
+          "appearance": {
+            "clothing_style": "merchant",
+            "age": "adult",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_2",
+          "role": "innkeeper",
+          "name": "Villager_2",
+          "level": 6,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "merchant",
+            "age": "elderly",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_3",
+          "role": "elder",
+          "name": "Villager_3",
+          "level": 3,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "peasant",
+            "age": "adult",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_4",
+          "role": "elder",
+          "name": "Villager_4",
+          "level": 8,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "peasant",
+            "age": "adult",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_5",
+          "role": "guard",
+          "name": "Villager_5",
+          "level": 5,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "merchant",
+            "age": "adult",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_6",
+          "role": "priest",
+          "name": "Villager_6",
+          "level": 8,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "peasant",
+            "age": "young",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_7",
+          "role": "innkeeper",
+          "name": "Villager_7",
+          "level": 6,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "noble",
+            "age": "young",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_8",
+          "role": "farmer",
+          "name": "Villager_8",
+          "level": 9,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": true,
+          "has_quest": true,
+          "appearance": {
+            "clothing_style": "peasant",
+            "age": "elderly",
+            "equipment": "tools"
+          }
+        },
+        {
+          "id": "npc_9",
+          "role": "craftsman",
+          "name": "Villager_9",
+          "level": 4,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": true,
+          "has_quest": true,
+          "appearance": {
+            "clothing_style": "noble",
+            "age": "elderly",
+            "equipment": "none"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Village_2",
+      "position": [
+        74,
+        38,
+        34.922298144051936
+      ],
+      "size": "small",
+      "buildings": [
+        {
+          "position": [
+            88.4635916096977,
+            36.30033881338257,
+            32.35830003597318
+          ],
+          "type": "temple",
+          "width": 4.117627933112356,
+          "length": 6.802413270379702,
+          "height": 4.498814197014198,
+          "roof_type": "domed",
+          "material": "mixed",
+          "has_chimney": true,
+          "windows": 4,
+          "door_position": "front"
+        },
+        {
+          "position": [
+            75.33700720285013,
+            45.02054673680067,
+            30.305652617382528
+          ],
+          "type": "shop",
+          "width": 5.566159444268795,
+          "length": 6.779552049248306,
+          "height": 3.349127405594647,
+          "roof_type": "domed",
+          "material": "mixed",
+          "has_chimney": true,
+          "windows": 3,
+          "door_position": "front"
+        },
+        {
+          "position": [
+            65.90069246568488,
+            36.05169349397051,
+            34.22899382080971
+          ],
+          "type": "inn",
+          "width": 6.947696219802422,
+          "length": 7.134967843316718,
+          "height": 3.630535797551042,
+          "roof_type": "flat",
+          "material": "wood",
+          "has_chimney": false,
+          "windows": 3,
+          "door_position": "side"
+        },
+        {
+          "position": [
+            73.43563259739004,
+            32.63799872512219,
+            38.537700572677345
+          ],
+          "type": "inn",
+          "width": 4.467676297824538,
+          "length": 5.702157383024399,
+          "height": 4.081321810455179,
+          "roof_type": "peaked",
+          "material": "stone",
+          "has_chimney": true,
+          "windows": 4,
+          "door_position": "side"
+        }
+      ],
+      "population": 8,
+      "biome": "forest",
+      "features": {
+        "market": false,
+        "walls": false,
+        "farms": 3,
+        "well": true,
+        "paths": true
+      },
+      "npcs": [
+        {
+          "id": "npc_0",
+          "role": "elder",
+          "name": "Villager_0",
+          "level": 4,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": true,
+          "appearance": {
+            "clothing_style": "peasant",
+            "age": "elderly",
+            "equipment": "weapons"
+          }
+        },
+        {
+          "id": "npc_1",
+          "role": "priest",
+          "name": "Villager_1",
+          "level": 3,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": true,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "merchant",
+            "age": "young",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_2",
+          "role": "innkeeper",
+          "name": "Villager_2",
+          "level": 1,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": true,
+          "appearance": {
+            "clothing_style": "merchant",
+            "age": "adult",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_3",
+          "role": "elder",
+          "name": "Villager_3",
+          "level": 3,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "noble",
+            "age": "elderly",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_4",
+          "role": "elder",
+          "name": "Villager_4",
+          "level": 3,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": true,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "merchant",
+            "age": "young",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_5",
+          "role": "innkeeper",
+          "name": "Villager_5",
+          "level": 8,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "peasant",
+            "age": "adult",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_6",
+          "role": "merchant",
+          "name": "Villager_6",
+          "level": 2,
+          "friendly": false,
+          "dialogue_available": true,
+          "can_trade": false,
+          "has_quest": true,
+          "appearance": {
+            "clothing_style": "merchant",
+            "age": "elderly",
+            "equipment": "none"
+          }
+        },
+        {
+          "id": "npc_7",
+          "role": "merchant",
+          "name": "Villager_7",
+          "level": 8,
+          "friendly": true,
+          "dialogue_available": true,
+          "can_trade": true,
+          "has_quest": false,
+          "appearance": {
+            "clothing_style": "noble",
+            "age": "adult",
+            "equipment": "weapons"
+          }
+        }
+      ]
+    }
+  ],
+  "caves": [
+    {
+      "entrance_position": [
+        81,
+        74,
+        29.039182924660977
+      ],
+      "size": 17,
+      "depth": 32.52770117649045,
+      "type": "ancient_ruins",
+      "chambers": [
+        {
+          "id": 0,
+          "size": 9.091840492551974,
+          "height": 6.333222197003414,
+          "connected_to": [
+            2
+          ],
+          "has_treasure": true,
+          "danger_level": 4
+        },
+        {
+          "id": 1,
+          "size": 4.876461650627215,
+          "height": 5.296945973623424,
+          "connected_to": [],
+          "has_treasure": false,
+          "danger_level": 1
+        },
+        {
+          "id": 2,
+          "size": 5.7191428115175125,
+          "height": 6.429364123821764,
+          "connected_to": [
+            0,
+            1
+          ],
+          "has_treasure": false,
+          "danger_level": 1
+        }
+      ],
+      "resources": {
+        "minerals": 15,
+        "crystals": 0,
+        "rare_ores": 3
+      },
+      "creatures": {
+        "count": 4,
+        "types": [
+          "elementals",
+          "bats"
+        ]
+      },
+      "features": {
+        "stalactites": true,
+        "underground_water": false,
+        "glowing_fungi": false,
+        "ancient_carvings": false
+      },
+      "lighting": {
+        "ambient": 0.1,
+        "has_torches": true,
+        "bioluminescent": false
+      }
+    },
+    {
+      "entrance_position": [
+        103,
+        54,
+        33.97685024705815
+      ],
+      "size": 25,
+      "depth": 44.03229032128405,
+      "type": "ancient_ruins",
+      "chambers": [
+        {
+          "id": 0,
+          "size": 4.465393540656079,
+          "height": 3.500843619445476,
+          "connected_to": [],
+          "has_treasure": false,
+          "danger_level": 3
+        },
+        {
+          "id": 1,
+          "size": 9.744314900307632,
+          "height": 3.751933720048677,
+          "connected_to": [
+            0,
+            2,
+            4
+          ],
+          "has_treasure": true,
+          "danger_level": 1
+        },
+        {
+          "id": 2,
+          "size": 6.100192577203717,
+          "height": 5.720086289600688,
+          "connected_to": [],
+          "has_treasure": true,
+          "danger_level": 2
+        },
+        {
+          "id": 3,
+          "size": 7.099491584657438,
+          "height": 2.6005313875043745,
+          "connected_to": [],
+          "has_treasure": false,
+          "danger_level": 4
+        },
+        {
+          "id": 4,
+          "size": 6.6380740543089685,
+          "height": 3.10834847240573,
+          "connected_to": [
+            1
+          ],
+          "has_treasure": false,
+          "danger_level": 4
+        }
+      ],
+      "resources": {
+        "minerals": 5,
+        "crystals": 1,
+        "rare_ores": 0
+      },
+      "creatures": {
+        "count": 4,
+        "types": [
+          "spiders"
+        ]
+      },
+      "features": {
+        "stalactites": true,
+        "underground_water": false,
+        "glowing_fungi": true,
+        "ancient_carvings": false
+      },
+      "lighting": {
+        "ambient": 0.1,
+        "has_torches": false,
+        "bioluminescent": true
+      }
+    }
+  ],
+  "creatures": [
+    {
+      "type": "Spiral Serpent",
+      "position": [
+        10,
+        59,
+        28.687742175594664
+      ],
+      "pattern": "fibonacci",
+      "size": "medium",
+      "is_humanoid": false,
+      "geometric_complexity": 10,
+      "color_palette": [
+        [
+          34,
+          139,
+          34
+        ],
+        [
+          50,
+          205,
+          50
+        ],
+        [
+          144,
+          238,
+          144
+        ]
+      ],
+      "magic_level": 0.51,
+      "glow_intensity": 0.37016727070740424,
+      "animation_speed": 0.7512368571831622,
+      "movement_pattern": {
+        "type": "circular",
+        "amplitude": 1.1219586678504876,
+        "frequency": 1.6538135353854206,
+        "phase": 0.5683494405258833
+      },
+      "biome": "plains",
+      "textures": {
+        "base_texture": {
+          "type": "procedural",
+          "pattern": "fibonacci",
+          "resolution": 1024,
+          "detail_level": 0.7193181670563912
+        },
+        "normal_map": {
+          "enabled": true,
+          "strength": 0.6197704079129077,
+          "detail": "high"
+        },
+        "roughness": 0.5034119618586037,
+        "metallic": 0.0,
+        "subsurface_scattering": {
+          "enabled": false,
+          "radius": 0.5,
+          "color": [
+            255,
+            200,
+            180
+          ]
+        },
+        "iridescence": 0.0
+      },
+      "animations": {
+        "idle": {
+          "breathing": {
+            "enabled": true,
+            "rate": 0.3707217985886604,
+            "amplitude": 0.03985896348618995
+          },
+          "fidget": {
+            "enabled": true,
+            "frequency": 0.17055698473105876,
+            "variations": [
+              "look_around",
+              "stretch",
+              "shake"
+            ]
+          }
+        },
+        "movement": {
+          "walk": {
+            "speed": 1.0,
+            "stride_length": 0.8,
+            "bob_amplitude": 0.1
+          },
+          "run": {
+            "speed": 2.5,
+            "stride_length": 1.2,
+            "bob_amplitude": 0.15
+          }
+        },
+        "combat": {
+          "attack": {
+            "windup_time": 0.3,
+            "strike_time": 0.2,
+            "recovery_time": 0.4
+          },
+          "defend": {
+            "reaction_time": 0.15
+          },
+          "hurt": {
+            "flinch_duration": 0.3,
+            "knockback": 1.3445993084378836
+          }
+        }
+      },
+      "equipment": null,
+      "magical_effects": {
+        "enabled": true,
+        "aura": {
+          "color": [
+            82,
+            25,
+            135
+          ],
+          "intensity": 0.6,
+          "radius": 2.2,
+          "pulse_rate": 1.3177942246819248
+        },
+        "particles": {
+          "enabled": true,
+          "count": 30,
+          "pattern": "float",
+          "color": [
+            202,
+            161,
+            219
+          ]
+        },
+        "trails": {
+          "enabled": false,
+          "length": 1.1,
+          "fade_time": 1.0
+        }
+      },
+      "variant_seed": 4023,
+      "scale_variation": 1.0831167876344563,
+      "color_tint": [
+        -3,
+        -14,
+        11
+      ]
+    },
+    {
+      "type": "Spiral Serpent",
+      "position": [
+        77,
+        5,
+        45.13261942962009
+      ],
+      "pattern": "fibonacci",
+      "size": "medium",
+      "is_humanoid": false,
+      "geometric_complexity": 6,
+      "color_palette": [
+        [
+          34,
+          139,
+          34
+        ],
+        [
+          50,
+          205,
+          50
+        ],
+        [
+          144,
+          238,
+          144
+        ]
+      ],
+      "magic_level": 0.51,
+      "glow_intensity": 0.41437542308945496,
+      "animation_speed": 1.0913095707104024,
+      "movement_pattern": {
+        "type": "levy_flight",
+        "amplitude": 2.9933710649664693,
+        "frequency": 0.4532107145422428,
+        "phase": 3.806973326512853
+      },
+      "biome": "mountains",
+      "textures": {
+        "base_texture": {
+          "type": "procedural",
+          "pattern": "fibonacci",
+          "resolution": 1024,
+          "detail_level": 0.9524038819092602
+        },
+        "normal_map": {
+          "enabled": true,
+          "strength": 0.6764872219724,
+          "detail": "high"
+        },
+        "roughness": 0.5453555934039094,
+        "metallic": 0.0,
+        "subsurface_scattering": {
+          "enabled": false,
+          "radius": 0.5,
+          "color": [
+            255,
+            200,
+            180
+          ]
+        },
+        "iridescence": 0.0
+      },
+      "animations": {
+        "idle": {
+          "breathing": {
+            "enabled": true,
+            "rate": 0.5460089067076558,
+            "amplitude": 0.02319633249941708
+          },
+          "fidget": {
+            "enabled": true,
+            "frequency": 0.25210258685168885,
+            "variations": [
+              "look_around",
+              "stretch",
+              "shake"
+            ]
+          }
+        },
+        "movement": {
+          "walk": {
+            "speed": 1.0,
+            "stride_length": 0.8,
+            "bob_amplitude": 0.1
+          },
+          "run": {
+            "speed": 2.5,
+            "stride_length": 1.2,
+            "bob_amplitude": 0.15
+          }
+        },
+        "combat": {
+          "attack": {
+            "windup_time": 0.3,
+            "strike_time": 0.2,
+            "recovery_time": 0.4
+          },
+          "defend": {
+            "reaction_time": 0.15
+          },
+          "hurt": {
+            "flinch_duration": 0.3,
+            "knockback": 0.5983906757464438
+          }
+        }
+      },
+      "equipment": null,
+      "magical_effects": {
+        "enabled": true,
+        "aura": {
+          "color": [
+            82,
+            25,
+            135
+          ],
+          "intensity": 0.6,
+          "radius": 2.2,
+          "pulse_rate": 1.4545060927765803
+        },
+        "particles": {
+          "enabled": true,
+          "count": 30,
+          "pattern": "float",
+          "color": [
+            137,
+            136,
+            238
+          ]
+        },
+        "trails": {
+          "enabled": false,
+          "length": 1.1,
+          "fade_time": 1.0
+        }
+      },
+      "variant_seed": 9551,
+      "scale_variation": 0.9391529032280451,
+      "color_tint": [
+        -14,
+        19,
+        -1
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "type": "Fractal Tower",
+      "position": [
+        107,
+        24,
+        38.70368258078978
+      ],
+      "fractal_iterations": 6,
+      "style": "recursive",
+      "height": 31.17957904302906,
+      "base_size": 17.592542332452208,
+      "complexity": 0.7028567829903458,
+      "magic_runes": 11,
+      "glow_intensity": 0.9163068004330132,
+      "glow_color": [
+        167,
+        218,
+        241
+      ],
+      "geometric_pattern": [
+        {
+          "shape": "triangle",
+          "scale": 1.0,
+          "rotation": 0
+        },
+        {
+          "shape": "triangle",
+          "scale": 0.5,
+          "rotation": 120
+        },
+        {
+          "shape": "triangle",
+          "scale": 0.25,
+          "rotation": 240
+        }
+      ]
+    }
+  ],
+  "lighting": {
+    "quality": "cinematic",
+    "ambient": {
+      "color": [
+        135,
+        206,
+        235
+      ],
+      "intensity": 0.3
+    },
+    "directional": {
+      "type": "sun",
+      "position": [
+        0.5,
+        0.8,
+        0.3
+      ],
+      "color": [
+        255,
+        250,
+        205
+      ],
+      "intensity": 0.8,
+      "cast_shadows": true,
+      "shadow_quality": "high"
+    },
+    "magical_lights": [
+      {
+        "type": "point",
+        "intensity": 0.714019167066283,
+        "color": [
+          179,
+          134,
+          209
+        ],
+        "radius": 12.79338630676796,
+        "flicker": true,
+        "flicker_speed": 1.8177174610905726
+      },
+      {
+        "type": "point",
+        "intensity": 0.9047543199886289,
+        "color": [
+          158,
+          149,
+          227
+        ],
+        "radius": 16.256772512010237,
+        "flicker": true,
+        "flicker_speed": 1.3734302778712928
+      },
+      {
+        "type": "point",
+        "intensity": 0.971906089201234,
+        "color": [
+          187,
+          220,
+          204
+        ],
+        "radius": 18.679739676132527,
+        "flicker": true,
+        "flicker_speed": 1.460755993195485
+      },
+      {
+        "type": "point",
+        "intensity": 0.9245132373650506,
+        "color": [
+          211,
+          139,
+          201
+        ],
+        "radius": 20.722139566910258,
+        "flicker": true,
+        "flicker_speed": 1.8688717920895654
+      },
+      {
+        "type": "point",
+        "intensity": 0.8694120044434486,
+        "color": [
+          236,
+          164,
+          246
+        ],
+        "radius": 12.065650971327472,
+        "flicker": true,
+        "flicker_speed": 1.3733115064659458
+      },
+      {
+        "type": "point",
+        "intensity": 0.9059007565226844,
+        "color": [
+          220,
+          114,
+          200
+        ],
+        "radius": 12.64355035675443,
+        "flicker": true,
+        "flicker_speed": 0.5381591083883227
+      },
+      {
+        "type": "point",
+        "intensity": 0.9709138706031464,
+        "color": [
+          172,
+          133,
+          208
+        ],
+        "radius": 25.674450868255597,
+        "flicker": true,
+        "flicker_speed": 0.611675473139031
+      },
+      {
+        "type": "point",
+        "intensity": 0.9995053644556359,
+        "color": [
+          154,
+          161,
+          244
+        ],
+        "radius": 28.868254330549426,
+        "flicker": true,
+        "flicker_speed": 1.9966500512120815
+      },
+      {
+        "type": "point",
+        "intensity": 0.6743266322457577,
+        "color": [
+          244,
+          158,
+          254
+        ],
+        "radius": 10.471903171704472,
+        "flicker": true,
+        "flicker_speed": 1.0244022051653443
+      },
+      {
+        "type": "point",
+        "intensity": 0.8012032008254388,
+        "color": [
+          174,
+          201,
+          228
+        ],
+        "radius": 13.15739032758909,
+        "flicker": true,
+        "flicker_speed": 0.6433130925271549
+      },
+      {
+        "type": "point",
+        "intensity": 0.5628644137600667,
+        "color": [
+          197,
+          249,
+          210
+        ],
+        "radius": 10.735553522998071,
+        "flicker": true,
+        "flicker_speed": 1.603254895170108
+      },
+      {
+        "type": "point",
+        "intensity": 0.608642458160487,
+        "color": [
+          169,
+          242,
+          230
+        ],
+        "radius": 21.641414305916562,
+        "flicker": true,
+        "flicker_speed": 1.1777248225332435
+      },
+      {
+        "type": "point",
+        "intensity": 0.5039853565067303,
+        "color": [
+          183,
+          184,
+          250
+        ],
+        "radius": 17.601444539204717,
+        "flicker": true,
+        "flicker_speed": 0.5462771089212644
+      },
+      {
+        "type": "point",
+        "intensity": 0.8837997721049967,
+        "color": [
+          180,
+          230,
+          203
+        ],
+        "radius": 27.91821593773882,
+        "flicker": true,
+        "flicker_speed": 1.6166492765065783
+      },
+      {
+        "type": "point",
+        "intensity": 0.8907921239888751,
+        "color": [
+          249,
+          166,
+          242
+        ],
+        "radius": 22.4371135515352,
+        "flicker": true,
+        "flicker_speed": 0.5939676533236569
+      },
+      {
+        "type": "point",
+        "intensity": 0.5395427731206157,
+        "color": [
+          174,
+          197,
+          213
+        ],
+        "radius": 29.365262661839214,
+        "flicker": true,
+        "flicker_speed": 0.7283420946929022
+      },
+      {
+        "type": "point",
+        "intensity": 0.899769093205071,
+        "color": [
+          226,
+          113,
+          237
+        ],
+        "radius": 19.307637342166302,
+        "flicker": true,
+        "flicker_speed": 0.6849318809608584
+      },
+      {
+        "type": "point",
+        "intensity": 0.9087262511825474,
+        "color": [
+          170,
+          152,
+          202
+        ],
+        "radius": 11.417840094502465,
+        "flicker": true,
+        "flicker_speed": 1.2747812890799342
+      },
+      {
+        "type": "point",
+        "intensity": 0.6466157183227412,
+        "color": [
+          241,
+          197,
+          201
+        ],
+        "radius": 26.1345452655492,
+        "flicker": true,
+        "flicker_speed": 1.5959207683543406
+      },
+      {
+        "type": "point",
+        "intensity": 0.6800007391711492,
+        "color": [
+          174,
+          177,
+          254
+        ],
+        "radius": 18.16698710464277,
+        "flicker": true,
+        "flicker_speed": 1.6133136374506551
+      }
+    ],
+    "volumetric_fog": {
+      "enabled": true,
+      "density": 0.02,
+      "color": [
+        200,
+        200,
+        220
+      ]
+    },
+    "god_rays": {
+      "enabled": true,
+      "intensity": 0.4
+    }
+  },
+  "sky": {
+    "type": "dynamic",
+    "time_of_day": "dawn",
+    "cloud_coverage": 0.26669772532531655,
+    "cloud_pattern": "fractal_noise",
+    "cloud_layers": [
+      {
+        "altitude": 1000,
+        "speed": 0.8868347751581241,
+        "opacity": 0.7920919082992026,
+        "fractal_scale": 145.37902411525474
+      },
+      {
+        "altitude": 2000,
+        "speed": 1.6590228390267603,
+        "opacity": 0.6961446390944722,
+        "fractal_scale": 55.65247409124382
+      },
+      {
+        "altitude": 3500,
+        "speed": 1.1911422539965233,
+        "opacity": 0.6381511683236452,
+        "fractal_scale": 93.42658689582592
+      }
+    ],
+    "celestial_bodies": [
+      {
+        "type": "sun",
+        "position": [
+          0.5,
+          0.3
+        ],
+        "size": 1.0,
+        "intensity": 1.0,
+        "color": [
+          255,
+          250,
+          205
+        ]
+      },
+      {
+        "type": "moon",
+        "position": [
+          -0.3,
+          0.8
+        ],
+        "size": 0.5,
+        "intensity": 0.3,
+        "color": [
+          220,
+          220,
+          255
+        ],
+        "phase": 0.5849995742956576
+      }
+    ],
+    "stars": {
+      "visible": true,
+      "count": 1000,
+      "twinkle": true,
+      "constellations": true
+    },
+    "aurora": {
+      "enabled": false,
+      "colors": [
+        [
+          0,
+          255,
+          127
+        ],
+        [
+          138,
+          43,
+          226
+        ],
+        [
+          0,
+          191,
+          255
+        ]
+      ],
+      "wave_pattern": "sinusoidal",
+      "intensity": 0.7418935679022631
+    },
+    "atmospheric_scattering": true,
+    "color_grading": {
+      "temperature": 6818.611816297517,
+      "tint": 0.08694807011893171,
+      "saturation": 1.017651477965543
+    }
+  },
+  "weather": {
+    "enabled": true,
+    "current_weather": "fog",
+    "temperature": -0.6610484172034852,
+    "wind": {
+      "speed": 14.07465462315347,
+      "direction": 154.84403800474146,
+      "gusts": true
+    },
+    "precipitation": {
+      "type": null,
+      "intensity": 0.0,
+      "chance": 0.3
+    },
+    "day_night_cycle": {
+      "enabled": true,
+      "current_time": 22.1568633271405,
+      "day_length": 12.0,
+      "transition_duration": 1.0,
+      "sun_angle": 0.0
+    },
+    "seasonal": {
+      "current_season": "spring",
+      "progress": 0.3517670273048755,
+      "effects": {
+        "temperature_modifier": 0.0,
+        "vegetation_state": 1.0,
+        "snow_coverage": 0.0
+      }
+    },
+    "dynamic_effects": {
+      "lightning": {
+        "enabled": false,
+        "frequency": 0.0,
+        "next_strike": 0.0
+      },
+      "rainbow": {
+        "visible": false,
+        "after_rain": true
+      },
+      "fog_density": 0.28230084083054885
+    }
+  },
+  "features": {
+    "fractal_terrain": true,
+    "procedural_forests": true,
+    "algorithmic_rivers": true,
+    "geometric_creatures": true,
+    "fractal_structures": true,
+    "cinematic_lighting": true,
+    "dynamic_sky": true,
+    "magical_effects": true,
+    "animations_enabled": true,
+    "villages_enabled": true,
+    "caves_enabled": true,
+    "weather_system": true,
+    "interactive_terrain": true,
+    "realistic_textures": true,
+    "facial_animations": true,
+    "equipment_system": true
+  },
+  "terrain_sample": [
+    [
+      0.41902922299560547,
+      0.9054556488905903,
+      0.8685936430980199,
+      0.6629962994327395
+    ],
+    [
+      0.4961896311604741,
+      0.570434024531676,
+      0.7326401785522673,
+      0.7055630245542781
+    ],
+    [
+      0.549345271352687,
+      0.3364992168444147,
+      0.46606916137199156,
+      0.7028701580376671
+    ],
+    [
+      0.5946191445107252,
+      0.38347801287945166,
+      0.29706540696667405,
+      0.25654875942737926
+    ]
+  ]
+}

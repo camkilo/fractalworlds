@@ -553,6 +553,149 @@ def create_post_processing_stack(quality: str = "cinematic") -> Dict[str, Any]:
     }
 
 
+class CinematicCamera:
+    """Cinematic camera system with advanced controls"""
+    
+    # Class constants
+    DEFAULT_FPS = 60  # Default frame rate for cinematic paths
+    
+    def __init__(self):
+        self.position = np.array([0.0, 0.0, 10.0])
+        self.target = np.array([0.0, 0.0, 0.0])
+        self.up = np.array([0.0, 1.0, 0.0])
+        self.fov = 60.0  # Field of view in degrees
+        self.near_clip = 0.1
+        self.far_clip = 1000.0
+        self.camera_modes = ["free", "follow", "orbit", "cinematic_path"]
+        self.current_mode = "follow"
+        self.smoothing = 0.1  # Camera smoothing factor
+        self.shake_intensity = 0.0
+        self.fps = self.DEFAULT_FPS  # Configurable frame rate
+        
+    def set_mode(self, mode: str):
+        """Set camera mode"""
+        if mode in self.camera_modes:
+            self.current_mode = mode
+    
+    def follow_target(self, target_position: np.ndarray, offset: np.ndarray = None,
+                     delta_time: float = 1.0):
+        """Smooth follow camera"""
+        if offset is None:
+            offset = np.array([0.0, 5.0, 10.0])
+        
+        desired_position = target_position + offset
+        self.position += (desired_position - self.position) * self.smoothing * delta_time
+        
+        # Smoothly look at target
+        desired_target = target_position
+        self.target += (desired_target - self.target) * self.smoothing * delta_time
+    
+    def orbit_around(self, center: np.ndarray, radius: float, angle: float, height: float):
+        """Orbit camera around a point"""
+        self.position[0] = center[0] + radius * np.cos(angle)
+        self.position[1] = center[1] + height
+        self.position[2] = center[2] + radius * np.sin(angle)
+        self.target = center
+    
+    def apply_shake(self, intensity: float = 0.5, duration: float = 0.5):
+        """Apply camera shake effect"""
+        self.shake_intensity = intensity
+        # In a real implementation, this would decay over time
+    
+    def get_shake_offset(self) -> np.ndarray:
+        """Get current shake offset"""
+        if self.shake_intensity <= 0:
+            return np.array([0.0, 0.0, 0.0])
+        
+        shake = np.array([
+            np.random.uniform(-1, 1),
+            np.random.uniform(-1, 1),
+            np.random.uniform(-1, 1)
+        ]) * self.shake_intensity
+        
+        return shake
+    
+    def create_cinematic_path(self, keyframes: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """Create a cinematic camera path with keyframes"""
+        path = []
+        
+        for i in range(len(keyframes) - 1):
+            current = keyframes[i]
+            next_frame = keyframes[i + 1]
+            
+            # Interpolate between keyframes
+            steps = int(current.get("duration", 1.0) * self.fps)
+            
+            for step in range(steps):
+                t = step / steps
+                # Cubic ease in-out
+                t = t * t * (3.0 - 2.0 * t)
+                
+                interpolated = {
+                    "position": self._lerp(
+                        np.array(current["position"]),
+                        np.array(next_frame["position"]),
+                        t
+                    ),
+                    "target": self._lerp(
+                        np.array(current["target"]),
+                        np.array(next_frame["target"]),
+                        t
+                    ),
+                    "fov": current["fov"] + (next_frame["fov"] - current["fov"]) * t
+                }
+                path.append(interpolated)
+        
+        return path
+    
+    def _lerp(self, a: np.ndarray, b: np.ndarray, t: float) -> np.ndarray:
+        """Linear interpolation"""
+        return a + (b - a) * t
+    
+    def get_view_matrix(self) -> Dict[str, Any]:
+        """Get view matrix parameters"""
+        # Apply shake if active
+        shake_offset = self.get_shake_offset()
+        adjusted_position = self.position + shake_offset
+        
+        # Calculate view direction
+        forward = self.target - adjusted_position
+        forward = forward / (np.linalg.norm(forward) + 1e-10)
+        
+        # Calculate right and up vectors
+        right = np.cross(forward, self.up)
+        right = right / (np.linalg.norm(right) + 1e-10)
+        
+        up = np.cross(right, forward)
+        
+        return {
+            "position": adjusted_position.tolist(),
+            "target": self.target.tolist(),
+            "forward": forward.tolist(),
+            "right": right.tolist(),
+            "up": up.tolist(),
+            "fov": self.fov,
+            "near": self.near_clip,
+            "far": self.far_clip
+        }
+    
+    def get_cinematic_angles(self) -> Dict[str, Any]:
+        """Get cinematic camera angles and effects"""
+        return {
+            "dutch_angle": 0.0,  # Tilted camera angle
+            "dolly_zoom": False,  # Vertigo effect
+            "rack_focus": {
+                "enabled": False,
+                "near_focus": 10.0,
+                "far_focus": 50.0
+            },
+            "letterbox": {
+                "enabled": True,
+                "aspect_ratio": 2.35  # Cinemascope
+            }
+        }
+
+
 def main():
     """Demo of visual effects system"""
     print("\n🎨 Visual Effects System Demo\n")
