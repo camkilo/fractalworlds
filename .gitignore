@@ -50,3 +50,6 @@ htmlcov/
 tmp/
 temp/
 *.tmp
+
+# Game saves
+saves/
