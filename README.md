@@ -168,6 +168,63 @@ python game_integration.py
 python examples.py
 ```
 
+## 🌐 Web Deployment
+
+### Deploy to Render
+
+1. Fork this repository
+2. Connect your GitHub account to [Render](https://render.com)
+3. Create a new Web Service
+4. Select this repository
+5. Use the following settings:
+   - **Build Command**: `pip install -r requirements.txt`
+   - **Start Command**: `gunicorn app:app`
+   - **Environment**: Python 3
+
+The web interface will be available at your Render URL.
+
+### Deploy to Heroku
+
+Create a `Procfile` in the repository root:
+```
+web: gunicorn app:app
+```
+
+Then deploy:
+```bash
+# Install Heroku CLI and login
+heroku login
+
+# Create new app
+heroku create your-fractalworlds-app
+
+# Deploy
+git push heroku main
+
+# Open in browser
+heroku open
+```
+
+### API Endpoints
+
+Once deployed, you can interact with the game via API:
+
+- `GET /` - Main web interface
+- `POST /api/game/new` - Initialize new game session
+- `GET /api/game/<session_id>/status` - Get game status
+- `GET /api/health` - Health check
+
+Example API usage:
+```bash
+# Create new game
+curl -X POST https://your-app.onrender.com/api/game/new \
+  -H "Content-Type: application/json" \
+  -d '{"player_name": "Hero", "seed": 12345}'
+
+# Check game status
+curl https://your-app.onrender.com/api/game/<session_id>/status
+```
+
 ## 🎮 Playing the Game
 
 ### Start a New Game
