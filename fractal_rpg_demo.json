@@ -1,0 +1,5282 @@
+{
+  "player": {
+    "name": "Hero",
+    "position": [
+      76.9999999999,
+      62.0,
+      55.35125484565809
+    ],
+    "stats": {
+      "health": 110.0,
+      "max_health": 110.0,
+      "mana": 110.0,
+      "max_mana": 110.0,
+      "stamina": 105.0,
+      "max_stamina": 105.0,
+      "strength": 12.0,
+      "intelligence": 12.0,
+      "agility": 12.0,
+      "logic_mastery": 1.1
+    },
+    "inventory": [
+      {
+        "name": "Basic Sword",
+        "type": "weapon",
+        "element": null,
+        "power": 10.0,
+        "quantity": 1,
+        "properties": {
+          "damage": 10
+        }
+      },
+      {
+        "name": "Cloth Armor",
+        "type": "armor",
+        "element": null,
+        "power": 5.0,
+        "quantity": 1,
+        "properties": {
+          "defense": 5
+        }
+      },
+      {
+        "name": "Health Potion",
+        "type": "consumable",
+        "element": null,
+        "power": 1.0,
+        "quantity": 3,
+        "properties": {
+          "heal": 50
+        }
+      },
+      {
+        "name": "Mana Potion",
+        "type": "consumable",
+        "element": null,
+        "power": 1.0,
+        "quantity": 3,
+        "properties": {
+          "mana": 50
+        }
+      }
+    ],
+    "skills": {
+      "combat": 1.0,
+      "magic": 1.165,
+      "crafting": 1.0,
+      "exploration": 1.0,
+      "logic": 1.0
+    },
+    "known_spells": [
+      "Fireball",
+      "Ice Shard"
+    ],
+    "experience": 165,
+    "level": 2
+  },
+  "world_data": {
+    "config": {
+      "seed": 42,
+      "world_size": 256,
+      "fractal_iterations": 8,
+      "terrain_roughness": 0.6,
+      "water_level": 0.3,
+      "tree_density": 0.5,
+      "creature_density": 0.15,
+      "magic_intensity": 0.8,
+      "lighting_quality": "cinematic",
+      "enable_animations": true
+    },
+    "terrain_stats": {
+      "size": 256,
+      "min_elevation": 0.0,
+      "max_elevation": 1.0,
+      "avg_elevation": 0.5184556919576425
+    },
+    "biome_distribution": {
+      "desert": 1232,
+      "forest": 18599,
+      "magical_grove": 1089,
+      "mountains": 6070,
+      "plains": 23610,
+      "swamp": 2190,
+      "tundra": 2057,
+      "water": 10689
+    },
+    "forests": [
+      {
+        "center": [
+          20,
+          0
+        ],
+        "trees": [
+          {
+            "position": [
+              11,
+              1,
+              37.847478534768435
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.9504548785809237,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8359615174235412
+          },
+          {
+            "position": [
+              25,
+              9,
+              37.847478534768435
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.565198520678829,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8266498158391159
+          },
+          {
+            "position": [
+              27,
+              -5,
+              37.847478534768435
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.3643906192957265,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6034989050855922
+          },
+          {
+            "position": [
+              12,
+              -9,
+              37.847478534768435
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.615268836685452,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7799150858706593
+          },
+          {
+            "position": [
+              20,
+              3,
+              37.847478534768435
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.2069936082609103,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6041753508100544
+          },
+          {
+            "position": [
+              19,
+              -6,
+              37.847478534768435
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.3656398319148,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9851797017082614
+          },
+          {
+            "position": [
+              28,
+              -1,
+              37.847478534768435
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.307730591455231,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8401298672051662
+          },
+          {
+            "position": [
+              20,
+              -6,
+              37.847478534768435
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.406289592556345,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6042157369397533
+          },
+          {
+            "position": [
+              10,
+              -6,
+              37.847478534768435
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.917413479844729,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6321165645911155
+          },
+          {
+            "position": [
+              13,
+              -1,
+              37.847478534768435
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.331175655997429,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9170786084882611
+          },
+          {
+            "position": [
+              22,
+              4,
+              37.847478534768435
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.945270250569173,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8772241649501984
+          },
+          {
+            "position": [
+              16,
+              -4,
+              37.847478534768435
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.117348425614831,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7675538951155403
+          },
+          {
+            "position": [
+              22,
+              -3,
+              37.847478534768435
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.546196708244029,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9898487028423465
+          }
+        ],
+        "biome": "forest"
+      },
+      {
+        "center": [
+          20,
+          20
+        ],
+        "trees": [
+          {
+            "position": [
+              18,
+              25,
+              31.586383191538044
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.409520894481165,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8924405159213831
+          },
+          {
+            "position": [
+              10,
+              23,
+              31.586383191538044
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.33088801193001,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6373673708503328
+          },
+          {
+            "position": [
+              10,
+              17,
+              31.586383191538044
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.894223339389336,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.921272309765581
+          },
+          {
+            "position": [
+              15,
+              13,
+              31.586383191538044
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.416154821251353,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6864509099543479
+          },
+          {
+            "position": [
+              27,
+              15,
+              31.586383191538044
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.594325872042985,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9300855508262944
+          },
+          {
+            "position": [
+              17,
+              23,
+              31.586383191538044
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.006387979482607,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9845075037492392
+          }
+        ],
+        "biome": "forest"
+      },
+      {
+        "center": [
+          140,
+          20
+        ],
+        "trees": [
+          {
+            "position": [
+              144,
+              26,
+              39.71541810167335
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.138492691039592,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8419826806143416
+          },
+          {
+            "position": [
+              134,
+              16,
+              39.71541810167335
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.020085755175041,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6375049695003651
+          },
+          {
+            "position": [
+              137,
+              20,
+              39.71541810167335
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.2111413524877497,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9150511048684145
+          },
+          {
+            "position": [
+              145,
+              20,
+              39.71541810167335
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.567083809038395,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6381343015231127
+          },
+          {
+            "position": [
+              148,
+              28,
+              39.71541810167335
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.1020326108915235,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9594600404905201
+          },
+          {
+            "position": [
+              138,
+              16,
+              39.71541810167335
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.65963949523063,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8020831838325011
+          },
+          {
+            "position": [
+              148,
+              15,
+              39.71541810167335
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.963601670407373,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.985065003841503
+          },
+          {
+            "position": [
+              138,
+              21,
+              39.71541810167335
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.6725655997791105,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9848603498085402
+          }
+        ],
+        "biome": "forest"
+      },
+      {
+        "center": [
+          140,
+          40
+        ],
+        "trees": [
+          {
+            "position": [
+              135,
+              48,
+              37.77150537107295
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.273977511199642,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6567209479522623
+          },
+          {
+            "position": [
+              130,
+              31,
+              37.77150537107295
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.362026509876217,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.849198544065324
+          },
+          {
+            "position": [
+              143,
+              45,
+              37.77150537107295
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.059086649699122,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6993550838072349
+          },
+          {
+            "position": [
+              141,
+              45,
+              37.77150537107295
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.742626919248279,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6620637776350045
+          },
+          {
+            "position": [
+              145,
+              34,
+              37.77150537107295
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.385912471051912,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.957814503248392
+          },
+          {
+            "position": [
+              137,
+              43,
+              37.77150537107295
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.331221434421919,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.958360117716468
+          },
+          {
+            "position": [
+              143,
+              33,
+              37.77150537107295
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.261629197109782,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.611580273015898
+          },
+          {
+            "position": [
+              141,
+              32,
+              37.77150537107295
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.1211814843585355,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6478492999452653
+          },
+          {
+            "position": [
+              142,
+              46,
+              37.77150537107295
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.841564429680067,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7340918424738114
+          },
+          {
+            "position": [
+              140,
+              34,
+              37.77150537107295
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.959549706668627,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9497189805673516
+          },
+          {
+            "position": [
+              145,
+              35,
+              37.77150537107295
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.5647333162447925,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6427812648642409
+          }
+        ],
+        "biome": "forest"
+      },
+      {
+        "center": [
+          240,
+          60
+        ],
+        "trees": [
+          {
+            "position": [
+              239,
+              65,
+              33.74849269185255
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.894623580747336,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9987471056469229
+          },
+          {
+            "position": [
+              244,
+              54,
+              33.74849269185255
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.067572767902983,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9528455954227989
+          },
+          {
+            "position": [
+              247,
+              65,
+              33.74849269185255
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.7263440330046445,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7978289079434181
+          },
+          {
+            "position": [
+              246,
+              60,
+              33.74849269185255
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.435721147564433,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8807795259158073
+          },
+          {
+            "position": [
+              247,
+              50,
+              33.74849269185255
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.016519371312022,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8358096340716734
+          },
+          {
+            "position": [
+              235,
+              66,
+              33.74849269185255
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.39495168915314,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9914203244532649
+          },
+          {
+            "position": [
+              234,
+              53,
+              33.74849269185255
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.3466420372534706,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8073862249963104
+          }
+        ],
+        "biome": "forest"
+      },
+      {
+        "center": [
+          120,
+          80
+        ],
+        "trees": [
+          {
+            "position": [
+              112,
+              82,
+              34.27863201743004
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.246400217840247,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8716535173920175
+          },
+          {
+            "position": [
+              123,
+              84,
+              34.27863201743004
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.672857359028081,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7980860982742567
+          },
+          {
+            "position": [
+              126,
+              80,
+              34.27863201743004
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.9092872927676785,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6391374556060446
+          },
+          {
+            "position": [
+              113,
+              80,
+              34.27863201743004
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.072719333153155,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7818322037451136
+          },
+          {
+            "position": [
+              111,
+              71,
+              34.27863201743004
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.5777458326252525,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6657690274778582
+          },
+          {
+            "position": [
+              113,
+              84,
+              34.27863201743004
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.003363287006994,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6199267568880165
+          },
+          {
+            "position": [
+              115,
+              75,
+              34.27863201743004
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.96935516825258,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7613877063991877
+          },
+          {
+            "position": [
+              125,
+              88,
+              34.27863201743004
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.235579464589486,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8109141856847957
+          },
+          {
+            "position": [
+              128,
+              85,
+              34.27863201743004
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.408182913203342,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6745294725753535
+          },
+          {
+            "position": [
+              122,
+              78,
+              34.27863201743004
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.447033006711517,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6871242829017766
+          }
+        ],
+        "biome": "forest"
+      },
+      {
+        "center": [
+          240,
+          80
+        ],
+        "trees": [
+          {
+            "position": [
+              244,
+              79,
+              36.6413114554592
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.9398568513068355,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7878045747850929
+          },
+          {
+            "position": [
+              240,
+              79,
+              36.6413114554592
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.3486803268196885,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.687959865969463
+          },
+          {
+            "position": [
+              240,
+              75,
+              36.6413114554592
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.0958753763297056,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.715207947769497
+          },
+          {
+            "position": [
+              235,
+              76,
+              36.6413114554592
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.110059276597288,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6398779650063389
+          },
+          {
+            "position": [
+              243,
+              70,
+              36.6413114554592
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.107046175483929,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7970772261771875
+          },
+          {
+            "position": [
+              241,
+              83,
+              36.6413114554592
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.984043758100322,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.743841565889214
+          }
+        ],
+        "biome": "forest"
+      },
+      {
+        "center": [
+          200,
+          100
+        ],
+        "trees": [
+          {
+            "position": [
+              192,
+              95,
+              37.290101399451395
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.473691929257114,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8736249710069889
+          },
+          {
+            "position": [
+              203,
+              104,
+              37.290101399451395
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.049219348040721,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.912881985139031
+          },
+          {
+            "position": [
+              206,
+              94,
+              37.290101399451395
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.789162440370614,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7020382720619721
+          },
+          {
+            "position": [
+              196,
+              108,
+              37.290101399451395
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.729630018095038,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9307123803730837
+          },
+          {
+            "position": [
+              198,
+              100,
+              37.290101399451395
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.875787177686657,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.967514467845777
+          },
+          {
+            "position": [
+              208,
+              109,
+              37.290101399451395
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.708671197393982,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7759533786647066
+          },
+          {
+            "position": [
+              190,
+              93,
+              37.290101399451395
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.66029464403478,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7379821300532738
+          },
+          {
+            "position": [
+              193,
+              93,
+              37.290101399451395
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.868627583696876,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8485713082925065
+          },
+          {
+            "position": [
+              205,
+              103,
+              37.290101399451395
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.438445200616513,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8361695671300341
+          }
+        ],
+        "biome": "forest"
+      },
+      {
+        "center": [
+          140,
+          120
+        ],
+        "trees": [
+          {
+            "position": [
+              131,
+              120,
+              33.467120375986376
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.0347069893955645,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8662840668177272
+          },
+          {
+            "position": [
+              147,
+              115,
+              33.467120375986376
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.468520916016285,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8737726425143616
+          },
+          {
+            "position": [
+              131,
+              121,
+              33.467120375986376
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.237646612041361,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.703449625989711
+          },
+          {
+            "position": [
+              142,
+              120,
+              33.467120375986376
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.417012289893208,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8372401385839583
+          },
+          {
+            "position": [
+              130,
+              123,
+              33.467120375986376
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.535412434669618,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9525412794088719
+          },
+          {
+            "position": [
+              131,
+              123,
+              33.467120375986376
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.623106925820596,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6388289498968799
+          },
+          {
+            "position": [
+              140,
+              128,
+              33.467120375986376
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.926587151929887,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6792768110310942
+          },
+          {
+            "position": [
+              145,
+              111,
+              33.467120375986376
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.1188940307986375,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7411486924545722
+          },
+          {
+            "position": [
+              144,
+              110,
+              33.467120375986376
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.09066739996813,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6972296499928677
+          },
+          {
+            "position": [
+              139,
+              129,
+              33.467120375986376
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.488333424781293,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7282395805467556
+          }
+        ],
+        "biome": "forest"
+      },
+      {
+        "center": [
+          160,
+          120
+        ],
+        "trees": [
+          {
+            "position": [
+              167,
+              129,
+              39.17618076699402
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.128573008390042,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8468950746807803
+          },
+          {
+            "position": [
+              154,
+              124,
+              39.17618076699402
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.0457938561755706,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9313422991104031
+          },
+          {
+            "position": [
+              156,
+              117,
+              39.17618076699402
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.3090822223331724,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7003209572520632
+          },
+          {
+            "position": [
+              155,
+              117,
+              39.17618076699402
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.620437296068859,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6625004987787446
+          },
+          {
+            "position": [
+              152,
+              119,
+              39.17618076699402
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.180513191298158,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6246569497666092
+          },
+          {
+            "position": [
+              167,
+              129,
+              39.17618076699402
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.038225635634777,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9210860814885479
+          },
+          {
+            "position": [
+              158,
+              128,
+              39.17618076699402
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.379657354184979,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6690413944530055
+          },
+          {
+            "position": [
+              169,
+              112,
+              39.17618076699402
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.858858782489092,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9521106263778402
+          },
+          {
+            "position": [
+              156,
+              115,
+              39.17618076699402
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.458151863162107,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9713780068820135
+          },
+          {
+            "position": [
+              158,
+              117,
+              39.17618076699402
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.1073013623401256,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6969934758167897
+          },
+          {
+            "position": [
+              164,
+              121,
+              39.17618076699402
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.361419552391473,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7745354206531576
+          }
+        ],
+        "biome": "forest"
+      },
+      {
+        "center": [
+          200,
+          120
+        ],
+        "trees": [
+          {
+            "position": [
+              192,
+              124,
+              37.29870385671899
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 10.571395783561611,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.7860832033764478,
+            "foliage_density": 0.8661635282476956
+          },
+          {
+            "position": [
+              209,
+              125,
+              37.29870385671899
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.283622751182001,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.944326360809489,
+            "foliage_density": 0.9288878584221336
+          },
+          {
+            "position": [
+              191,
+              119,
+              37.29870385671899
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.097925060204222,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.9651375745188637,
+            "foliage_density": 0.8177440538448392
+          },
+          {
+            "position": [
+              201,
+              115,
+              37.29870385671899
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 8.626640997474952,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.6537060294256222,
+            "foliage_density": 0.7948023429264434
+          },
+          {
+            "position": [
+              193,
+              124,
+              37.29870385671899
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 9.444115234825578,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.7087662298358761,
+            "foliage_density": 0.7270392882280471
+          },
+          {
+            "position": [
+              202,
+              113,
+              37.29870385671899
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.669341802545951,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.7735906961319092,
+            "foliage_density": 0.953388689908587
+          },
+          {
+            "position": [
+              205,
+              111,
+              37.29870385671899
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 10.753681397148565,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.8595676881532562,
+            "foliage_density": 0.8297558295851222
+          },
+          {
+            "position": [
+              206,
+              124,
+              37.29870385671899
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.788209725136792,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.6041682800679933,
+            "foliage_density": 0.6154366552841419
+          },
+          {
+            "position": [
+              204,
+              111,
+              37.29870385671899
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 10.355346264331628,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.6380026091931496,
+            "foliage_density": 0.814064045517718
+          },
+          {
+            "position": [
+              198,
+              127,
+              37.29870385671899
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 11.756092290368409,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.9087251448029194,
+            "foliage_density": 0.8908457277819803
+          },
+          {
+            "position": [
+              195,
+              123,
+              37.29870385671899
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 9.482140509356501,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.8459091154039489,
+            "foliage_density": 0.843065023423273
+          }
+        ],
+        "biome": "magical_grove"
+      },
+      {
+        "center": [
+          180,
+          140
+        ],
+        "trees": [
+          {
+            "position": [
+              183,
+              136,
+              35.144360799024945
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.891168353524713,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7487636654916786
+          },
+          {
+            "position": [
+              183,
+              132,
+              35.144360799024945
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.034217369156881,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.948990045510755
+          },
+          {
+            "position": [
+              181,
+              130,
+              35.144360799024945
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.9106832271473837,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6570409920463589
+          },
+          {
+            "position": [
+              187,
+              135,
+              35.144360799024945
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.2974796054717475,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8663984803148455
+          },
+          {
+            "position": [
+              185,
+              147,
+              35.144360799024945
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.701699953669255,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9563857538123123
+          },
+          {
+            "position": [
+              189,
+              131,
+              35.144360799024945
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.955279864213996,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7675068332465412
+          },
+          {
+            "position": [
+              171,
+              140,
+              35.144360799024945
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.641159262188781,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6923635521042464
+          },
+          {
+            "position": [
+              176,
+              145,
+              35.144360799024945
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.590587165379224,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8883052671799065
+          },
+          {
+            "position": [
+              188,
+              146,
+              35.144360799024945
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.7741857199848345,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.732300506234589
+          },
+          {
+            "position": [
+              175,
+              138,
+              35.144360799024945
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.239635058671466,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9186286363955599
+          },
+          {
+            "position": [
+              187,
+              149,
+              35.144360799024945
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.688648614419891,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8699502237490104
+          },
+          {
+            "position": [
+              176,
+              131,
+              35.144360799024945
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.910228344869985,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7402909543899066
+          },
+          {
+            "position": [
+              188,
+              135,
+              35.144360799024945
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.078994419667947,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.808075733510283
+          }
+        ],
+        "biome": "forest"
+      },
+      {
+        "center": [
+          200,
+          140
+        ],
+        "trees": [
+          {
+            "position": [
+              208,
+              139,
+              30.785150548521116
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.442896799274018,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7213794912829471
+          },
+          {
+            "position": [
+              193,
+              139,
+              30.785150548521116
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.227871822871255,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7480795045198131
+          },
+          {
+            "position": [
+              201,
+              132,
+              30.785150548521116
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.3355953193054284,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6821237315326186
+          },
+          {
+            "position": [
+              207,
+              144,
+              30.785150548521116
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.564198009860392,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6331868194723261
+          },
+          {
+            "position": [
+              201,
+              141,
+              30.785150548521116
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.950913848268165,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7392645558216063
+          },
+          {
+            "position": [
+              206,
+              138,
+              30.785150548521116
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.749269411622903,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9153349179132909
+          }
+        ],
+        "biome": "forest"
+      },
+      {
+        "center": [
+          220,
+          140
+        ],
+        "trees": [
+          {
+            "position": [
+              226,
+              149,
+              28.60636915990703
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.83036999829215,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6092272870292015
+          },
+          {
+            "position": [
+              229,
+              132,
+              28.60636915990703
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.742340174011684,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8319506581748536
+          },
+          {
+            "position": [
+              213,
+              135,
+              28.60636915990703
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.91588091523565,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9962667903143585
+          },
+          {
+            "position": [
+              224,
+              131,
+              28.60636915990703
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.4983436041397,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6581630538586306
+          },
+          {
+            "position": [
+              213,
+              138,
+              28.60636915990703
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.365524528587576,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.766182512666322
+          },
+          {
+            "position": [
+              216,
+              144,
+              28.60636915990703
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.041514480361,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7221885337308181
+          },
+          {
+            "position": [
+              212,
+              146,
+              28.60636915990703
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.723250002676522,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9192415565126958
+          }
+        ],
+        "biome": "forest"
+      },
+      {
+        "center": [
+          180,
+          160
+        ],
+        "trees": [
+          {
+            "position": [
+              175,
+              166,
+              29.519478935554734
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 11.815687148518789,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.5554715721186585,
+            "foliage_density": 0.7390524800597067
+          },
+          {
+            "position": [
+              173,
+              162,
+              29.519478935554734
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 8.00774490942808,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.9131281152472761,
+            "foliage_density": 0.6846861338230501
+          },
+          {
+            "position": [
+              185,
+              157,
+              29.519478935554734
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.664628065518304,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.8726398693054525,
+            "foliage_density": 0.734562874408111
+          },
+          {
+            "position": [
+              185,
+              158,
+              29.519478935554734
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.534285709670497,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.9264238795150681,
+            "foliage_density": 0.9229914571776494
+          },
+          {
+            "position": [
+              182,
+              156,
+              29.519478935554734
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 11.575753749741835,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.6058348352147207,
+            "foliage_density": 0.6068065755748687
+          },
+          {
+            "position": [
+              170,
+              150,
+              29.519478935554734
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.631264619047673,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.5524865986188305,
+            "foliage_density": 0.6312278854667016
+          },
+          {
+            "position": [
+              185,
+              151,
+              29.519478935554734
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.182634021036973,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.9460283745693825,
+            "foliage_density": 0.7960032393353221
+          },
+          {
+            "position": [
+              182,
+              160,
+              29.519478935554734
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.026717331408387,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.7548309524069491,
+            "foliage_density": 0.7592919702914189
+          },
+          {
+            "position": [
+              186,
+              154,
+              29.519478935554734
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.819498124277309,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.8192737248642812,
+            "foliage_density": 0.8073797801821181
+          },
+          {
+            "position": [
+              176,
+              152,
+              29.519478935554734
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 8.040340509115053,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.626791214421069,
+            "foliage_density": 0.6752990557484817
+          },
+          {
+            "position": [
+              184,
+              165,
+              29.519478935554734
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.526264139134721,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.9564887705846783,
+            "foliage_density": 0.7964467041224523
+          },
+          {
+            "position": [
+              178,
+              165,
+              29.519478935554734
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 10.204009940822267,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.5314380356429529,
+            "foliage_density": 0.98909124437183
+          },
+          {
+            "position": [
+              182,
+              169,
+              29.519478935554734
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 9.750964891156787,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.6228075564530278,
+            "foliage_density": 0.7925236303979054
+          }
+        ],
+        "biome": "magical_grove"
+      },
+      {
+        "center": [
+          200,
+          160
+        ],
+        "trees": [
+          {
+            "position": [
+              195,
+              162,
+              26.863209419796462
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.130694652921505,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6166866614845629
+          },
+          {
+            "position": [
+              203,
+              152,
+              26.863209419796462
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.983679374677736,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9416303056406717
+          },
+          {
+            "position": [
+              201,
+              168,
+              26.863209419796462
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.626795960552584,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7724369720823442
+          },
+          {
+            "position": [
+              204,
+              157,
+              26.863209419796462
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.095260852284893,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9445086126152125
+          },
+          {
+            "position": [
+              201,
+              152,
+              26.863209419796462
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.544841841889414,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7120362211609472
+          }
+        ],
+        "biome": "forest"
+      },
+      {
+        "center": [
+          200,
+          180
+        ],
+        "trees": [
+          {
+            "position": [
+              194,
+              188,
+              20.83227301377858
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.716400516461806,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6846952332079623
+          },
+          {
+            "position": [
+              190,
+              176,
+              20.83227301377858
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.948350436887534,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8434121549058057
+          },
+          {
+            "position": [
+              199,
+              187,
+              20.83227301377858
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.086474863614752,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9977655853813119
+          },
+          {
+            "position": [
+              207,
+              189,
+              20.83227301377858
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.8742220941863224,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8876411446290267
+          },
+          {
+            "position": [
+              207,
+              170,
+              20.83227301377858
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.580357567889574,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6912738940414055
+          },
+          {
+            "position": [
+              199,
+              187,
+              20.83227301377858
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.21369081242655,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6239700345019054
+          },
+          {
+            "position": [
+              201,
+              182,
+              20.83227301377858
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.3814053526647636,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7017512427459951
+          },
+          {
+            "position": [
+              195,
+              174,
+              20.83227301377858
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.43177276978997,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9933338700335321
+          },
+          {
+            "position": [
+              203,
+              176,
+              20.83227301377858
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.0217979466087375,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6093340713841157
+          },
+          {
+            "position": [
+              209,
+              178,
+              20.83227301377858
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.420447846175634,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8086268769132869
+          },
+          {
+            "position": [
+              190,
+              173,
+              20.83227301377858
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.866136928095564,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9491815169611151
+          },
+          {
+            "position": [
+              199,
+              177,
+              20.83227301377858
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.606316033021541,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7270334089181116
+          },
+          {
+            "position": [
+              205,
+              185,
+              20.83227301377858
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.200296680809004,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9287834257392521
+          },
+          {
+            "position": [
+              190,
+              180,
+              20.83227301377858
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.065999292538149,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7715427960697174
+          }
+        ],
+        "biome": "forest"
+      },
+      {
+        "center": [
+          220,
+          180
+        ],
+        "trees": [
+          {
+            "position": [
+              213,
+              173,
+              26.603262719595154
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.46305015670044,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7640138442530153
+          },
+          {
+            "position": [
+              225,
+              185,
+              26.603262719595154
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.080381532123582,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8542579340529795
+          },
+          {
+            "position": [
+              223,
+              172,
+              26.603262719595154
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.409345172277465,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6273939781360981
+          },
+          {
+            "position": [
+              215,
+              179,
+              26.603262719595154
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.370233333007892,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6616208913762842
+          },
+          {
+            "position": [
+              219,
+              184,
+              26.603262719595154
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.466250861537233,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9062720028695335
+          },
+          {
+            "position": [
+              217,
+              183,
+              26.603262719595154
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.412972544057309,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7874058267630695
+          },
+          {
+            "position": [
+              214,
+              186,
+              26.603262719595154
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.167981469040064,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7980753990691936
+          },
+          {
+            "position": [
+              229,
+              178,
+              26.603262719595154
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.854996156081958,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8288122921516168
+          }
+        ],
+        "biome": "forest"
+      },
+      {
+        "center": [
+          80,
+          220
+        ],
+        "trees": [
+          {
+            "position": [
+              79,
+              210,
+              19.338434043307036
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 10.109565712130994,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.7592359053827618,
+            "foliage_density": 0.9225767506533734
+          },
+          {
+            "position": [
+              85,
+              217,
+              19.338434043307036
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 10.535274273216343,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.8193985851308827,
+            "foliage_density": 0.7132151169260508
+          },
+          {
+            "position": [
+              83,
+              224,
+              19.338434043307036
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.149516694463461,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.9655427019803497,
+            "foliage_density": 0.6200407170766602
+          },
+          {
+            "position": [
+              77,
+              227,
+              19.338434043307036
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 9.836050694514125,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.7347518534111663,
+            "foliage_density": 0.6164357901703147
+          },
+          {
+            "position": [
+              80,
+              220,
+              19.338434043307036
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 9.120563389020065,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.8877997903353154,
+            "foliage_density": 0.689208815583901
+          },
+          {
+            "position": [
+              79,
+              216,
+              19.338434043307036
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 9.263491509226675,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.5707591626704211,
+            "foliage_density": 0.7867096567749285
+          },
+          {
+            "position": [
+              75,
+              226,
+              19.338434043307036
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 8.255600747785016,
+            "angle": 25,
+            "is_magical": true,
+            "glow_intensity": 0.6043283606097194,
+            "foliage_density": 0.8748040766269385
+          }
+        ],
+        "biome": "magical_grove"
+      },
+      {
+        "center": [
+          100,
+          220
+        ],
+        "trees": [
+          {
+            "position": [
+              90,
+              216,
+              20.740013904222184
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.107171399384045,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8705186347876626
+          },
+          {
+            "position": [
+              97,
+              219,
+              20.740013904222184
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.110409014814719,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8473409199808071
+          },
+          {
+            "position": [
+              94,
+              217,
+              20.740013904222184
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.057897101714927,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7722129750485921
+          },
+          {
+            "position": [
+              107,
+              222,
+              20.740013904222184
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.933205650882471,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7015491992937246
+          },
+          {
+            "position": [
+              99,
+              217,
+              20.740013904222184
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.192194424395112,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.752892159393317
+          },
+          {
+            "position": [
+              96,
+              220,
+              20.740013904222184
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.511756306464929,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.726891532615057
+          },
+          {
+            "position": [
+              90,
+              229,
+              20.740013904222184
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.6518939777366715,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7851933748986529
+          }
+        ],
+        "biome": "forest"
+      },
+      {
+        "center": [
+          20,
+          240
+        ],
+        "trees": [
+          {
+            "position": [
+              15,
+              248,
+              33.48590607680169
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.9114957100785475,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8792757370406826
+          },
+          {
+            "position": [
+              13,
+              241,
+              33.48590607680169
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.068268319439662,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6980682161571092
+          },
+          {
+            "position": [
+              21,
+              245,
+              33.48590607680169
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.512919010053414,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7068528008382493
+          },
+          {
+            "position": [
+              12,
+              244,
+              33.48590607680169
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.486477465129161,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.929739754066172
+          },
+          {
+            "position": [
+              12,
+              235,
+              33.48590607680169
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.686109968563125,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8987540399770497
+          },
+          {
+            "position": [
+              25,
+              237,
+              33.48590607680169
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.48093704194641,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9504313472386978
+          },
+          {
+            "position": [
+              18,
+              247,
+              33.48590607680169
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.968129463896863,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.708252687740568
+          },
+          {
+            "position": [
+              16,
+              241,
+              33.48590607680169
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.386030718346604,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8309555583275382
+          },
+          {
+            "position": [
+              26,
+              242,
+              33.48590607680169
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.858568630866499,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7050686300102755
+          },
+          {
+            "position": [
+              29,
+              245,
+              33.48590607680169
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.6955924833857114,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9557832861214448
+          },
+          {
+            "position": [
+              10,
+              241,
+              33.48590607680169
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.480082944069447,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9335299119624191
+          }
+        ],
+        "biome": "forest"
+      },
+      {
+        "center": [
+          40,
+          240
+        ],
+        "trees": [
+          {
+            "position": [
+              31,
+              240,
+              32.08601700724464
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.525133765774471,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7209211334337082
+          },
+          {
+            "position": [
+              43,
+              236,
+              32.08601700724464
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.362139479623587,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6760174906992459
+          },
+          {
+            "position": [
+              33,
+              247,
+              32.08601700724464
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.333124752103388,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8662631726290515
+          },
+          {
+            "position": [
+              36,
+              232,
+              32.08601700724464
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.6616210251751315,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9572239579129296
+          },
+          {
+            "position": [
+              40,
+              234,
+              32.08601700724464
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.7150981269287655,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6007374976911879
+          },
+          {
+            "position": [
+              40,
+              234,
+              32.08601700724464
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.691644293594366,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9736032786666023
+          }
+        ],
+        "biome": "forest"
+      },
+      {
+        "center": [
+          80,
+          240
+        ],
+        "trees": [
+          {
+            "position": [
+              71,
+              249,
+              22.06172813687669
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 6.387631063659612,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.8589499400845958
+          },
+          {
+            "position": [
+              83,
+              241,
+              22.06172813687669
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.185947806561123,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6887450256291254
+          },
+          {
+            "position": [
+              81,
+              234,
+              22.06172813687669
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.246477154203326,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.912302329520783
+          },
+          {
+            "position": [
+              83,
+              240,
+              22.06172813687669
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.853612257367571,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7047761861817645
+          },
+          {
+            "position": [
+              72,
+              242,
+              22.06172813687669
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 5.955765448537992,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9376388837895396
+          },
+          {
+            "position": [
+              86,
+              234,
+              22.06172813687669
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.8319743114875,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9730652332129
+          },
+          {
+            "position": [
+              72,
+              246,
+              22.06172813687669
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.964171123122149,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7507088118980803
+          },
+          {
+            "position": [
+              71,
+              241,
+              22.06172813687669
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 3.4007390919211278,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6819359135578211
+          },
+          {
+            "position": [
+              89,
+              233,
+              22.06172813687669
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.866936520369017,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6332120488989516
+          },
+          {
+            "position": [
+              86,
+              244,
+              22.06172813687669
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.394192191074206,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.6394657815317294
+          },
+          {
+            "position": [
+              72,
+              238,
+              22.06172813687669
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 7.286059691808383,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9553170026037795
+          },
+          {
+            "position": [
+              89,
+              245,
+              22.06172813687669
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.7439707868626115,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.7452578136497645
+          },
+          {
+            "position": [
+              84,
+              249,
+              22.06172813687669
+            ],
+            "l_system": "FF+[+F-F-F]-[-F+F+F]FF+[+F-F-F]-[-F+F+F]+[+FF+[+F-",
+            "height": 4.69046818553945,
+            "angle": 25,
+            "is_magical": false,
+            "glow_intensity": 0,
+            "foliage_density": 0.9949258848863438
+          }
+        ],
+        "biome": "forest"
+      }
+    ],
+    "rivers": [],
+    "creatures": [
+      {
+        "type": "Golden Bear",
+        "position": [
+          194,
+          74,
+          36.86661547385792
+        ],
+        "pattern": "golden_ratio",
+        "size": "large",
+        "geometric_complexity": 10,
+        "color_palette": [
+          [
+            184,
+            134,
+            11
+          ],
+          [
+            218,
+            165,
+            32
+          ],
+          [
+            238,
+            232,
+            170
+          ]
+        ],
+        "magic_level": 0.16000000000000003,
+        "glow_intensity": 0.11207386382807841,
+        "animation_speed": 0.8888054564909649,
+        "movement_pattern": {
+          "type": "random_walk",
+          "amplitude": 2.71443471971316,
+          "frequency": 0.6734298757710075,
+          "phase": 2.086000735118693
+        },
+        "biome": "forest"
+      },
+      {
+        "type": "Crystal Spider",
+        "position": [
+          164,
+          164,
+          20.099871943023498
+        ],
+        "pattern": "octahedral",
+        "size": "small",
+        "geometric_complexity": 5,
+        "color_palette": [
+          [
+            135,
+            206,
+            235
+          ],
+          [
+            176,
+            224,
+            230
+          ],
+          [
+            240,
+            248,
+            255
+          ]
+        ],
+        "magic_level": 0.32000000000000006,
+        "glow_intensity": 0.2563218216405921,
+        "animation_speed": 1.1739176649125436,
+        "movement_pattern": {
+          "type": "random_walk",
+          "amplitude": 3.6206169830640498,
+          "frequency": 1.7722330973467155,
+          "phase": 2.6550104945816324
+        },
+        "biome": "forest"
+      },
+      {
+        "type": "Crystal Spider",
+        "position": [
+          185,
+          15,
+          36.65117247984224
+        ],
+        "pattern": "octahedral",
+        "size": "small",
+        "geometric_complexity": 10,
+        "color_palette": [
+          [
+            135,
+            206,
+            235
+          ],
+          [
+            176,
+            224,
+            230
+          ],
+          [
+            240,
+            248,
+            255
+          ]
+        ],
+        "magic_level": 0.32000000000000006,
+        "glow_intensity": 0.23608929572897203,
+        "animation_speed": 1.188268702209084,
+        "movement_pattern": {
+          "type": "random_walk",
+          "amplitude": 2.6031896441236864,
+          "frequency": 0.4313854993939592,
+          "phase": 5.8003577092192575
+        },
+        "biome": "plains"
+      },
+      {
+        "type": "Geometric Wolf",
+        "position": [
+          32,
+          25,
+          33.731076298455854
+        ],
+        "pattern": "hexagonal",
+        "size": "medium",
+        "geometric_complexity": 5,
+        "color_palette": [
+          [
+            255,
+            215,
+            0
+          ],
+          [
+            255,
+            165,
+            0
+          ],
+          [
+            255,
+            140,
+            0
+          ]
+        ],
+        "magic_level": 0.24,
+        "glow_intensity": 0.15365703268632816,
+        "animation_speed": 1.0618059632054253,
+        "movement_pattern": {
+          "type": "zigzag",
+          "amplitude": 1.9840124091743663,
+          "frequency": 0.6904193504263079,
+          "phase": 1.5405346459469482
+        },
+        "biome": "forest"
+      },
+      {
+        "type": "Golden Bear",
+        "position": [
+          120,
+          135,
+          15.30729894054241
+        ],
+        "pattern": "golden_ratio",
+        "size": "large",
+        "geometric_complexity": 9,
+        "color_palette": [
+          [
+            184,
+            134,
+            11
+          ],
+          [
+            218,
+            165,
+            32
+          ],
+          [
+            238,
+            232,
+            170
+          ]
+        ],
+        "magic_level": 0.16000000000000003,
+        "glow_intensity": 0.1568488750786833,
+        "animation_speed": 0.8418302893627431,
+        "movement_pattern": {
+          "type": "levy_flight",
+          "amplitude": 3.37869434047685,
+          "frequency": 0.8396914809784523,
+          "phase": 1.1625675761229017
+        },
+        "biome": "tundra"
+      },
+      {
+        "type": "Spiral Serpent",
+        "position": [
+          167,
+          44,
+          33.24416007138233
+        ],
+        "pattern": "fibonacci",
+        "size": "medium",
+        "geometric_complexity": 9,
+        "color_palette": [
+          [
+            34,
+            139,
+            34
+          ],
+          [
+            50,
+            205,
+            50
+          ],
+          [
+            144,
+            238,
+            144
+          ]
+        ],
+        "magic_level": 0.48,
+        "glow_intensity": 0.3206645223428097,
+        "animation_speed": 1.3142135792565797,
+        "movement_pattern": {
+          "type": "circular",
+          "amplitude": 4.224488620435347,
+          "frequency": 1.919577647260546,
+          "phase": 3.811451454464489
+        },
+        "biome": "desert"
+      }
+    ],
+    "structures": [
+      {
+        "type": "Crystal Spire",
+        "position": [
+          56,
+          92,
+          23.63307254106246
+        ],
+        "fractal_iterations": 7,
+        "style": "crystalline",
+        "height": 26.02660078661089,
+        "base_size": 16.396165536007537,
+        "complexity": 0.8239596690713582,
+        "magic_runes": 11,
+        "glow_intensity": 0.7460050944284313,
+        "glow_color": [
+          202,
+          191,
+          251
+        ],
+        "geometric_pattern": [
+          {
+            "shape": "hexagon",
+            "scale": 0.8,
+            "rotation": 0
+          },
+          {
+            "shape": "hexagon",
+            "scale": 0.8,
+            "rotation": 60
+          },
+          {
+            "shape": "hexagon",
+            "scale": 0.8,
+            "rotation": 120
+          },
+          {
+            "shape": "hexagon",
+            "scale": 0.8,
+            "rotation": 180
+          },
+          {
+            "shape": "hexagon",
+            "scale": 0.8,
+            "rotation": 240
+          },
+          {
+            "shape": "hexagon",
+            "scale": 0.8,
+            "rotation": 300
+          }
+        ]
+      },
+      {
+        "type": "Ancient Observatory",
+        "position": [
+          69,
+          212,
+          21.046281684230088
+        ],
+        "fractal_iterations": 5,
+        "style": "spiral",
+        "height": 20.31631711983288,
+        "base_size": 12.18718622830133,
+        "complexity": 0.9255902984216545,
+        "magic_runes": 6,
+        "glow_intensity": 0.9230667194093619,
+        "glow_color": [
+          253,
+          205,
+          213
+        ],
+        "geometric_pattern": [
+          {
+            "shape": "arc",
+            "scale": 1.0,
+            "rotation": 0.0
+          },
+          {
+            "shape": "arc",
+            "scale": 1.618,
+            "rotation": 137.5
+          },
+          {
+            "shape": "arc",
+            "scale": 2.6179240000000004,
+            "rotation": 275.0
+          },
+          {
+            "shape": "arc",
+            "scale": 4.235801032000001,
+            "rotation": 412.5
+          },
+          {
+            "shape": "arc",
+            "scale": 6.853526069776001,
+            "rotation": 550.0
+          }
+        ]
+      },
+      {
+        "type": "Ancient Observatory",
+        "position": [
+          29,
+          100,
+          22.952689537698113
+        ],
+        "fractal_iterations": 5,
+        "style": "spiral",
+        "height": 39.23657298954801,
+        "base_size": 13.749099479791962,
+        "complexity": 0.8111745962168302,
+        "magic_runes": 5,
+        "glow_intensity": 0.8012572465907172,
+        "glow_color": [
+          178,
+          149,
+          253
+        ],
+        "geometric_pattern": [
+          {
+            "shape": "arc",
+            "scale": 1.0,
+            "rotation": 0.0
+          },
+          {
+            "shape": "arc",
+            "scale": 1.618,
+            "rotation": 137.5
+          },
+          {
+            "shape": "arc",
+            "scale": 2.6179240000000004,
+            "rotation": 275.0
+          },
+          {
+            "shape": "arc",
+            "scale": 4.235801032000001,
+            "rotation": 412.5
+          },
+          {
+            "shape": "arc",
+            "scale": 6.853526069776001,
+            "rotation": 550.0
+          }
+        ]
+      }
+    ],
+    "lighting": {
+      "quality": "cinematic",
+      "ambient": {
+        "color": [
+          135,
+          206,
+          235
+        ],
+        "intensity": 0.3
+      },
+      "directional": {
+        "type": "sun",
+        "position": [
+          0.5,
+          0.8,
+          0.3
+        ],
+        "color": [
+          255,
+          250,
+          205
+        ],
+        "intensity": 0.8,
+        "cast_shadows": true,
+        "shadow_quality": "high"
+      },
+      "magical_lights": [
+        {
+          "type": "point",
+          "intensity": 0.8770058034234776,
+          "color": [
+            207,
+            250,
+            251
+          ],
+          "radius": 10.382963968331826,
+          "flicker": true,
+          "flicker_speed": 1.552570413068973
+        },
+        {
+          "type": "point",
+          "intensity": 0.516484389906602,
+          "color": [
+            155,
+            114,
+            219
+          ],
+          "radius": 22.571659032416946,
+          "flicker": true,
+          "flicker_speed": 1.6816876129256748
+        },
+        {
+          "type": "point",
+          "intensity": 0.5066629426949629,
+          "color": [
+            186,
+            226,
+            203
+          ],
+          "radius": 11.073057184179456,
+          "flicker": true,
+          "flicker_speed": 1.981685594759531
+        },
+        {
+          "type": "point",
+          "intensity": 0.8915151987370782,
+          "color": [
+            229,
+            142,
+            221
+          ],
+          "radius": 25.0212269626397,
+          "flicker": true,
+          "flicker_speed": 1.96083261574013
+        },
+        {
+          "type": "point",
+          "intensity": 0.6732690281055527,
+          "color": [
+            198,
+            198,
+            231
+          ],
+          "radius": 26.073335758808664,
+          "flicker": true,
+          "flicker_speed": 0.8339780007676367
+        },
+        {
+          "type": "point",
+          "intensity": 0.6654812047599482,
+          "color": [
+            158,
+            233,
+            202
+          ],
+          "radius": 18.963310502151337,
+          "flicker": true,
+          "flicker_speed": 1.0559042145433293
+        },
+        {
+          "type": "point",
+          "intensity": 0.7757073889751208,
+          "color": [
+            252,
+            102,
+            205
+          ],
+          "radius": 22.2931074877235,
+          "flicker": true,
+          "flicker_speed": 1.7397548667373477
+        },
+        {
+          "type": "point",
+          "intensity": 0.5906081751374332,
+          "color": [
+            176,
+            205,
+            240
+          ],
+          "radius": 23.472461770819123,
+          "flicker": true,
+          "flicker_speed": 0.9165002436155711
+        },
+        {
+          "type": "point",
+          "intensity": 0.5327301677029979,
+          "color": [
+            172,
+            136,
+            221
+          ],
+          "radius": 18.3307915979855,
+          "flicker": true,
+          "flicker_speed": 0.6262805460852225
+        },
+        {
+          "type": "point",
+          "intensity": 0.9418163594003243,
+          "color": [
+            192,
+            146,
+            211
+          ],
+          "radius": 10.44008957242864,
+          "flicker": true,
+          "flicker_speed": 1.1372943937124564
+        },
+        {
+          "type": "point",
+          "intensity": 0.5822363822924186,
+          "color": [
+            248,
+            126,
+            216
+          ],
+          "radius": 22.2308010371986,
+          "flicker": true,
+          "flicker_speed": 0.5586265487201385
+        },
+        {
+          "type": "point",
+          "intensity": 0.6619748415930924,
+          "color": [
+            152,
+            136,
+            215
+          ],
+          "radius": 13.656559075756538,
+          "flicker": true,
+          "flicker_speed": 1.5764162572153462
+        },
+        {
+          "type": "point",
+          "intensity": 0.9205855054546317,
+          "color": [
+            248,
+            219,
+            231
+          ],
+          "radius": 11.653526730849377,
+          "flicker": true,
+          "flicker_speed": 1.036932541915622
+        },
+        {
+          "type": "point",
+          "intensity": 0.9068360633051691,
+          "color": [
+            236,
+            102,
+            229
+          ],
+          "radius": 14.72710741575921,
+          "flicker": true,
+          "flicker_speed": 1.4053349438017646
+        },
+        {
+          "type": "point",
+          "intensity": 0.7765745678330427,
+          "color": [
+            214,
+            167,
+            221
+          ],
+          "radius": 24.13035841924671,
+          "flicker": true,
+          "flicker_speed": 0.8027647285915077
+        },
+        {
+          "type": "point",
+          "intensity": 0.5805195587628622,
+          "color": [
+            209,
+            206,
+            246
+          ],
+          "radius": 26.651213940585414,
+          "flicker": true,
+          "flicker_speed": 1.4444603619366925
+        },
+        {
+          "type": "point",
+          "intensity": 0.5341598262112324,
+          "color": [
+            163,
+            127,
+            200
+          ],
+          "radius": 13.811024217831536,
+          "flicker": true,
+          "flicker_speed": 1.794539441478334
+        },
+        {
+          "type": "point",
+          "intensity": 0.9528788251493032,
+          "color": [
+            181,
+            246,
+            236
+          ],
+          "radius": 28.473368296210218,
+          "flicker": true,
+          "flicker_speed": 1.416984938892213
+        },
+        {
+          "type": "point",
+          "intensity": 0.9061944144199935,
+          "color": [
+            196,
+            145,
+            241
+          ],
+          "radius": 26.050193975372423,
+          "flicker": true,
+          "flicker_speed": 1.6621724605697858
+        },
+        {
+          "type": "point",
+          "intensity": 0.6784670670745389,
+          "color": [
+            198,
+            220,
+            236
+          ],
+          "radius": 15.635223080277107,
+          "flicker": true,
+          "flicker_speed": 1.518431539632159
+        }
+      ],
+      "volumetric_fog": {
+        "enabled": true,
+        "density": 0.02,
+        "color": [
+          200,
+          200,
+          220
+        ]
+      },
+      "god_rays": {
+        "enabled": true,
+        "intensity": 0.4
+      }
+    },
+    "sky": {
+      "type": "dynamic",
+      "time_of_day": "dawn",
+      "cloud_coverage": 0.6094111656525557,
+      "cloud_pattern": "fractal_noise",
+      "cloud_layers": [
+        {
+          "altitude": 1000,
+          "speed": 1.330347388022541,
+          "opacity": 0.4439619341102344,
+          "fractal_scale": 54.90838095901961
+        },
+        {
+          "altitude": 2000,
+          "speed": 1.3159671492937717,
+          "opacity": 0.35918162605536746,
+          "fractal_scale": 152.66400291514324
+        },
+        {
+          "altitude": 3500,
+          "speed": 1.2127555447745442,
+          "opacity": 0.5573639987528147,
+          "fractal_scale": 186.40543059359112
+        }
+      ],
+      "celestial_bodies": [
+        {
+          "type": "sun",
+          "position": [
+            0.5,
+            0.3
+          ],
+          "size": 1.0,
+          "intensity": 1.0,
+          "color": [
+            255,
+            250,
+            205
+          ]
+        },
+        {
+          "type": "moon",
+          "position": [
+            -0.3,
+            0.8
+          ],
+          "size": 0.5,
+          "intensity": 0.3,
+          "color": [
+            220,
+            220,
+            255
+          ],
+          "phase": 0.6953128206147603
+        }
+      ],
+      "stars": {
+        "visible": true,
+        "count": 1000,
+        "twinkle": true,
+        "constellations": true
+      },
+      "aurora": {
+        "enabled": true,
+        "colors": [
+          [
+            0,
+            255,
+            127
+          ],
+          [
+            138,
+            43,
+            226
+          ],
+          [
+            0,
+            191,
+            255
+          ]
+        ],
+        "wave_pattern": "sinusoidal",
+        "intensity": 0.7627426193891842
+      },
+      "atmospheric_scattering": true,
+      "color_grading": {
+        "temperature": 5540.28466495347,
+        "tint": 0.01752307256868002,
+        "saturation": 1.1154275626288848
+      }
+    },
+    "features": {
+      "fractal_terrain": true,
+      "procedural_forests": true,
+      "algorithmic_rivers": true,
+      "geometric_creatures": true,
+      "fractal_structures": true,
+      "cinematic_lighting": true,
+      "dynamic_sky": true,
+      "magical_effects": true,
+      "animations_enabled": true
+    }
+  },
+  "time_elapsed": 4.0,
+  "discovered_recipes": [],
+  "ecosystem": {
+    "creatures": [
+      {
+        "type": "Golden Bear",
+        "position": [
+          189.68803314027213,
+          67.58295364488689,
+          36.32101941275821
+        ],
+        "pattern": "golden_ratio",
+        "size": "large",
+        "geometric_complexity": 10,
+        "color_palette": [
+          [
+            184,
+            134,
+            11
+          ],
+          [
+            218,
+            165,
+            32
+          ],
+          [
+            238,
+            232,
+            170
+          ]
+        ],
+        "magic_level": 0.16000000000000003,
+        "glow_intensity": 0.11207386382807841,
+        "animation_speed": 0.8888054564909649,
+        "movement_pattern": {
+          "type": "random_walk",
+          "amplitude": 2.71443471971316,
+          "frequency": 0.6734298757710075,
+          "phase": 2.086000735118693
+        },
+        "biome": "forest",
+        "id": 0,
+        "is_creature": true
+      },
+      {
+        "type": "Crystal Spider",
+        "position": [
+          164.2637362010408,
+          164.56867047996442,
+          19.019496660159483
+        ],
+        "pattern": "octahedral",
+        "size": "small",
+        "geometric_complexity": 5,
+        "color_palette": [
+          [
+            135,
+            206,
+            235
+          ],
+          [
+            176,
+            224,
+            230
+          ],
+          [
+            240,
+            248,
+            255
+          ]
+        ],
+        "magic_level": 0.32000000000000006,
+        "glow_intensity": 0.2563218216405921,
+        "animation_speed": 1.1739176649125436,
+        "movement_pattern": {
+          "type": "random_walk",
+          "amplitude": 3.6206169830640498,
+          "frequency": 1.7722330973467155,
+          "phase": 2.6550104945816324
+        },
+        "biome": "forest",
+        "id": 1,
+        "is_creature": true
+      },
+      {
+        "type": "Crystal Spider",
+        "position": [
+          182.47098957447955,
+          22.221783189903956,
+          36.10876646948746
+        ],
+        "pattern": "octahedral",
+        "size": "small",
+        "geometric_complexity": 10,
+        "color_palette": [
+          [
+            135,
+            206,
+            235
+          ],
+          [
+            176,
+            224,
+            230
+          ],
+          [
+            240,
+            248,
+            255
+          ]
+        ],
+        "magic_level": 0.32000000000000006,
+        "glow_intensity": 0.23608929572897203,
+        "animation_speed": 1.188268702209084,
+        "movement_pattern": {
+          "type": "random_walk",
+          "amplitude": 2.6031896441236864,
+          "frequency": 0.4313854993939592,
+          "phase": 5.8003577092192575
+        },
+        "biome": "plains",
+        "id": 2,
+        "is_creature": true
+      },
+      {
+        "type": "Geometric Wolf",
+        "position": [
+          29.830351737267392,
+          25.11376182249488,
+          32.72121766410593
+        ],
+        "pattern": "hexagonal",
+        "size": "medium",
+        "geometric_complexity": 5,
+        "color_palette": [
+          [
+            255,
+            215,
+            0
+          ],
+          [
+            255,
+            165,
+            0
+          ],
+          [
+            255,
+            140,
+            0
+          ]
+        ],
+        "magic_level": 0.24,
+        "glow_intensity": 0.15365703268632816,
+        "animation_speed": 1.0618059632054253,
+        "movement_pattern": {
+          "type": "zigzag",
+          "amplitude": 1.9840124091743663,
+          "frequency": 0.6904193504263079,
+          "phase": 1.5405346459469482
+        },
+        "biome": "forest",
+        "id": 3,
+        "is_creature": true
+      },
+      {
+        "type": "Golden Bear",
+        "position": [
+          121.061763136809,
+          135.56085091016234,
+          16.480390611806943
+        ],
+        "pattern": "golden_ratio",
+        "size": "large",
+        "geometric_complexity": 9,
+        "color_palette": [
+          [
+            184,
+            134,
+            11
+          ],
+          [
+            218,
+            165,
+            32
+          ],
+          [
+            238,
+            232,
+            170
+          ]
+        ],
+        "magic_level": 0.16000000000000003,
+        "glow_intensity": 0.1568488750786833,
+        "animation_speed": 0.8418302893627431,
+        "movement_pattern": {
+          "type": "levy_flight",
+          "amplitude": 3.37869434047685,
+          "frequency": 0.8396914809784523,
+          "phase": 1.1625675761229017
+        },
+        "biome": "tundra",
+        "id": 4,
+        "is_creature": true
+      },
+      {
+        "type": "Spiral Serpent",
+        "position": [
+          172.38872646049714,
+          49.86646255368563,
+          33.969588602596566
+        ],
+        "pattern": "fibonacci",
+        "size": "medium",
+        "geometric_complexity": 9,
+        "color_palette": [
+          [
+            34,
+            139,
+            34
+          ],
+          [
+            50,
+            205,
+            50
+          ],
+          [
+            144,
+            238,
+            144
+          ]
+        ],
+        "magic_level": 0.48,
+        "glow_intensity": 0.3206645223428097,
+        "animation_speed": 1.3142135792565797,
+        "movement_pattern": {
+          "type": "circular",
+          "amplitude": 4.224488620435347,
+          "frequency": 1.919577647260546,
+          "phase": 3.811451454464489
+        },
+        "biome": "desert",
+        "id": 5,
+        "is_creature": true
+      }
+    ],
+    "population_history": [
+      {
+        "Golden Bear": 2,
+        "Crystal Spider": 2,
+        "Geometric Wolf": 1,
+        "Spiral Serpent": 1
+      },
+      {
+        "Golden Bear": 2,
+        "Crystal Spider": 2,
+        "Geometric Wolf": 1,
+        "Spiral Serpent": 1
+      },
+      {
+        "Golden Bear": 2,
+        "Crystal Spider": 2,
+        "Geometric Wolf": 1,
+        "Spiral Serpent": 1
+      },
+      {
+        "Golden Bear": 2,
+        "Crystal Spider": 2,
+        "Geometric Wolf": 1,
+        "Spiral Serpent": 1
+      }
+    ]
+  },
+  "environment": {
+    "modifications": [],
+    "resource_nodes": [
+      {
+        "position": [
+          21.631668660411968,
+          5.462659224041753,
+          75.69495706953687
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 5.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.33066866341001777,
+          "purity": 0.9322631364214999
+        }
+      },
+      {
+        "position": [
+          25.2860739524166,
+          -5.448635108146609,
+          75.69495706953687
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 15.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.8814110536408075,
+          "purity": 0.9270926619056472
+        }
+      },
+      {
+        "position": [
+          18.165871607839357,
+          8.063211872645585,
+          75.69495706953687
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 10.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.4522582994311507,
+          "purity": 0.9850657328367847
+        }
+      },
+      {
+        "position": [
+          17.386661403914122,
+          9.056626754450523,
+          75.69495706953687
+        ],
+        "type": "Wood",
+        "element": "nature",
+        "quantity": 14.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.4817969209090608,
+          "purity": 0.7909454360585664
+        }
+      },
+      {
+        "position": [
+          27.1217517435354,
+          22.122140860435078,
+          63.17276638307609
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 6.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.6356369288661896,
+          "purity": 0.6215988820451515
+        }
+      },
+      {
+        "position": [
+          20.627976186052916,
+          15.900113694243112,
+          63.17276638307609
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 13.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.626842332702314,
+          "purity": 0.6224842258062291
+        }
+      },
+      {
+        "position": [
+          21.84889461361811,
+          15.903255547385628,
+          63.17276638307609
+        ],
+        "type": "Wood",
+        "element": "nature",
+        "quantity": 11.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.34595683641103986,
+          "purity": 0.6240838094119555
+        }
+      },
+      {
+        "position": [
+          11.018472438853157,
+          18.29699467785019,
+          63.17276638307609
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 10.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.795047503717497,
+          "purity": 0.8873556928287389
+        }
+      },
+      {
+        "position": [
+          145.8569395261449,
+          23.089555733753322,
+          79.4308362033467
+        ],
+        "type": "Wood",
+        "element": "nature",
+        "quantity": 14.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.4652893509407233,
+          "purity": 0.5331165186776807
+        }
+      },
+      {
+        "position": [
+          130.06785851140606,
+          24.630269780772807,
+          79.4308362033467
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 11.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.5736805549275243,
+          "purity": 0.6002505691331901
+        }
+      },
+      {
+        "position": [
+          142.35377268842225,
+          30.91621343246253,
+          75.5430107421459
+        ],
+        "type": "Wood",
+        "element": "nature",
+        "quantity": 12.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.423147064778142,
+          "purity": 0.5285502537875753
+        }
+      },
+      {
+        "position": [
+          146.1823309638367,
+          36.091323489082754,
+          75.5430107421459
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 11.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.7805301990896225,
+          "purity": 0.8068637063375521
+        }
+      },
+      {
+        "position": [
+          132.46676710307915,
+          42.24241884637149,
+          75.5430107421459
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 11.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.7891182807426861,
+          "purity": 0.9623186578378315
+        }
+      },
+      {
+        "position": [
+          139.26195615697335,
+          36.98197132893739,
+          75.5430107421459
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 14.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.6527677692140911,
+          "purity": 0.7967959914205835
+        }
+      },
+      {
+        "position": [
+          236.05962356221428,
+          63.59978331484665,
+          67.4969853837051
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 6.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.4142203359684958,
+          "purity": 0.7908216308638628
+        }
+      },
+      {
+        "position": [
+          241.8582980241542,
+          62.53588400245101,
+          67.4969853837051
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 7.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.4012342484686288,
+          "purity": 0.5250123235320423
+        }
+      },
+      {
+        "position": [
+          234.62063304195436,
+          51.73305810031843,
+          67.4969853837051
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 17.400000000000006,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.8124382201740401,
+          "purity": 0.8687765325323571
+        }
+      },
+      {
+        "position": [
+          110.1756388614955,
+          77.67370433911245,
+          68.55726403486008
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 9.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.8149149821525663,
+          "purity": 0.5649056430740564
+        }
+      },
+      {
+        "position": [
+          122.24570142427469,
+          73.68165697911142,
+          68.55726403486008
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 17.400000000000006,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.8932152699155131,
+          "purity": 0.6913581710204784
+        }
+      },
+      {
+        "position": [
+          245.70008593222406,
+          85.08907531771668,
+          73.2826229109184
+        ],
+        "type": "Wood",
+        "element": "nature",
+        "quantity": 16.400000000000006,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.7187878106925991,
+          "purity": 0.5878411901554293
+        }
+      },
+      {
+        "position": [
+          244.60150626284855,
+          77.73717889804237,
+          73.2826229109184
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 10.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.33615206054761143,
+          "purity": 0.6627428736638192
+        }
+      },
+      {
+        "position": [
+          203.31032836630249,
+          99.4985427919934,
+          74.58020279890279
+        ],
+        "type": "Wood",
+        "element": "nature",
+        "quantity": 14.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.7264002699285157,
+          "purity": 0.5697429952837223
+        }
+      },
+      {
+        "position": [
+          198.70843734631592,
+          92.56323330321379,
+          74.58020279890279
+        ],
+        "type": "Wood",
+        "element": "nature",
+        "quantity": 14.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.675657132200053,
+          "purity": 0.9162108565058371
+        }
+      },
+      {
+        "position": [
+          201.79518164163173,
+          93.5329466780601,
+          74.58020279890279
+        ],
+        "type": "Wood",
+        "element": "nature",
+        "quantity": 5.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.6347939127439433,
+          "purity": 0.9291791705392904
+        }
+      },
+      {
+        "position": [
+          204.42744518402412,
+          102.83386907594166,
+          74.58020279890279
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 8.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.6186665986862938,
+          "purity": 0.9228143573928012
+        }
+      },
+      {
+        "position": [
+          138.95799822929553,
+          118.49093154543127,
+          66.93424075197275
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 15.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.4689555570012699,
+          "purity": 0.961656738113021
+        }
+      },
+      {
+        "position": [
+          138.88111791263094,
+          121.17543951503721,
+          66.93424075197275
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 19.400000000000006,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.5592629779653655,
+          "purity": 0.8687897310936739
+        }
+      },
+      {
+        "position": [
+          148.07633576410467,
+          113.16168974192094,
+          66.93424075197275
+        ],
+        "type": "Wood",
+        "element": "nature",
+        "quantity": 5.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.8803195343578156,
+          "purity": 0.5539070074090683
+        }
+      },
+      {
+        "position": [
+          142.719805578057,
+          121.72784862709894,
+          66.93424075197275
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 13.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.782824622840784,
+          "purity": 0.9609054471458083
+        }
+      },
+      {
+        "position": [
+          159.41569106007293,
+          116.60658043331982,
+          78.35236153398805
+        ],
+        "type": "Wood",
+        "element": "nature",
+        "quantity": 9.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.48176809095821516,
+          "purity": 0.9604256823149842
+        }
+      },
+      {
+        "position": [
+          155.077096278826,
+          124.01823116993488,
+          78.35236153398805
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 15.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.5451203732517642,
+          "purity": 0.8913909312599603
+        }
+      },
+      {
+        "position": [
+          150.31927515218476,
+          125.54168078143708,
+          78.35236153398805
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 17.400000000000006,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.8492917163020905,
+          "purity": 0.771210338662501
+        }
+      },
+      {
+        "position": [
+          168.9311870305093,
+          125.23950634002715,
+          78.35236153398805
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 10.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.5884749042420834,
+          "purity": 0.6909144336219023
+        }
+      },
+      {
+        "position": [
+          196.73111622671001,
+          116.4879477903888,
+          74.59740771343797
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 17.400000000000006,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.376833545842883,
+          "purity": 0.69396204115539
+        }
+      },
+      {
+        "position": [
+          195.71836681703354,
+          113.88677001895523,
+          74.59740771343797
+        ],
+        "type": "Wood",
+        "element": "nature",
+        "quantity": 12.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.6164032996257163,
+          "purity": 0.9303946855436224
+        }
+      },
+      {
+        "position": [
+          195.82528335950292,
+          125.82776483566518,
+          74.59740771343797
+        ],
+        "type": "Wood",
+        "element": "nature",
+        "quantity": 17.400000000000006,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.6407127988112308,
+          "purity": 0.940097782782761
+        }
+      },
+      {
+        "position": [
+          172.82877384433476,
+          147.7190563247621,
+          70.28872159804989
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 7.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.4792555030229617,
+          "purity": 0.7257410989529522
+        }
+      },
+      {
+        "position": [
+          178.95542019623886,
+          142.21781831740105,
+          70.28872159804989
+        ],
+        "type": "Wood",
+        "element": "nature",
+        "quantity": 5.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.458148782785433,
+          "purity": 0.585259951331717
+        }
+      },
+      {
+        "position": [
+          189.37618258026387,
+          132.8413913209841,
+          70.28872159804989
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 19.400000000000006,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.606845543007164,
+          "purity": 0.8734650780233197
+        }
+      },
+      {
+        "position": [
+          202.01863929600162,
+          133.14306903785047,
+          61.57030109704223
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 6.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.7316795158135523,
+          "purity": 0.6436287329928301
+        }
+      },
+      {
+        "position": [
+          206.25541697493466,
+          135.3625169318547,
+          61.57030109704223
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 15.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.47885084655884724,
+          "purity": 0.5146784992050062
+        }
+      },
+      {
+        "position": [
+          208.2992975667857,
+          145.08127910301383,
+          61.57030109704223
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 10.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.5057761063496233,
+          "purity": 0.6159288459075334
+        }
+      },
+      {
+        "position": [
+          218.13346773246192,
+          135.43061360497123,
+          57.21273831981406
+        ],
+        "type": "Wood",
+        "element": "nature",
+        "quantity": 15.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.3450832037187942,
+          "purity": 0.8853841923492214
+        }
+      },
+      {
+        "position": [
+          227.86719912588654,
+          143.37088051383196,
+          57.21273831981406
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 7.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.697614962076095,
+          "purity": 0.8521812966215866
+        }
+      },
+      {
+        "position": [
+          224.91476728198555,
+          139.29280063132356,
+          57.21273831981406
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 18.400000000000006,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.35680082335435803,
+          "purity": 0.9039013364755173
+        }
+      },
+      {
+        "position": [
+          225.81525467391717,
+          136.0381927920755,
+          57.21273831981406
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 10.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.4787401436151011,
+          "purity": 0.8442078532477657
+        }
+      },
+      {
+        "position": [
+          179.92336087766694,
+          163.87103339838893,
+          59.03895787110947
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 11.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.5068292216325201,
+          "purity": 0.703049019436204
+        }
+      },
+      {
+        "position": [
+          186.9530362117627,
+          167.574823779631,
+          59.03895787110947
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 16.400000000000006,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.39332693420749,
+          "purity": 0.826529699857672
+        }
+      },
+      {
+        "position": [
+          171.03938458512064,
+          159.55027571467403,
+          59.03895787110947
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 9.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.5507524949678262,
+          "purity": 0.707159523420767
+        }
+      },
+      {
+        "position": [
+          194.14606809258015,
+          168.92365501864197,
+          53.726418839592924
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 6.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.4836771523898125,
+          "purity": 0.5267629181494906
+        }
+      },
+      {
+        "position": [
+          191.6983696555543,
+          158.31939174976276,
+          53.726418839592924
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 5.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.32477547641926424,
+          "purity": 0.839271897941275
+        }
+      },
+      {
+        "position": [
+          191.25234643579395,
+          156.68508415647452,
+          53.726418839592924
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 11.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.38466622131476863,
+          "purity": 0.5529441583466048
+        }
+      },
+      {
+        "position": [
+          209.74282840864123,
+          181.977411298097,
+          41.66454602755716
+        ],
+        "type": "Wood",
+        "element": "nature",
+        "quantity": 15.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.48292393590220106,
+          "purity": 0.8010333116824486
+        }
+      },
+      {
+        "position": [
+          205.65145470998723,
+          174.3134001170571,
+          41.66454602755716
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 6.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.3103519936509025,
+          "purity": 0.9161987921856296
+        }
+      },
+      {
+        "position": [
+          198.3375776007245,
+          178.78569445066455,
+          41.66454602755716
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 6.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.3352165845922795,
+          "purity": 0.9878921842103594
+        }
+      },
+      {
+        "position": [
+          220.80420780172224,
+          183.350437959983,
+          53.20652543919031
+        ],
+        "type": "Wood",
+        "element": "nature",
+        "quantity": 8.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.4389584063303661,
+          "purity": 0.6754823497453109
+        }
+      },
+      {
+        "position": [
+          226.5655376457601,
+          177.4771604594571,
+          53.20652543919031
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 19.400000000000006,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.4262776179351476,
+          "purity": 0.8403546378265301
+        }
+      },
+      {
+        "position": [
+          222.88418067428242,
+          179.25063314697167,
+          53.20652543919031
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 13.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.6899851411308104,
+          "purity": 0.6288571369285343
+        }
+      },
+      {
+        "position": [
+          81.16106538859991,
+          213.53174508553758,
+          38.67686808661407
+        ],
+        "type": "Wood",
+        "element": "nature",
+        "quantity": 7.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.7778689677095725,
+          "purity": 0.676787341866552
+        }
+      },
+      {
+        "position": [
+          79.60890012371442,
+          228.7100084948879,
+          38.67686808661407
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 13.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.34457612877435195,
+          "purity": 0.5913308878339827
+        }
+      },
+      {
+        "position": [
+          108.54328580285514,
+          211.36286254636468,
+          41.48002780844437
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 13.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.43168930177138054,
+          "purity": 0.8746541056971917
+        }
+      },
+      {
+        "position": [
+          90.77554241546186,
+          211.7974569984826,
+          41.48002780844437
+        ],
+        "type": "Wood",
+        "element": "nature",
+        "quantity": 15.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.5283819340275542,
+          "purity": 0.5162415657757078
+        }
+      },
+      {
+        "position": [
+          109.44496244358969,
+          227.2656097970057,
+          41.48002780844437
+        ],
+        "type": "Wood",
+        "element": "nature",
+        "quantity": 7.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.3287775646225393,
+          "purity": 0.7273154598982052
+        }
+      },
+      {
+        "position": [
+          21.143922967797735,
+          241.3921017340649,
+          66.97181215360338
+        ],
+        "type": "Crystal",
+        "element": "earth",
+        "quantity": 13.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.7868629173126288,
+          "purity": 0.6536893125490388
+        }
+      },
+      {
+        "position": [
+          17.555865678923542,
+          230.0952760307638,
+          66.97181215360338
+        ],
+        "type": "Wood",
+        "element": "nature",
+        "quantity": 12.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.8978979532618867,
+          "purity": 0.8674192292434354
+        }
+      },
+      {
+        "position": [
+          45.9393526337841,
+          237.71555900923565,
+          64.17203401448928
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 7.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.40305927390663526,
+          "purity": 0.54465862124308
+        }
+      },
+      {
+        "position": [
+          44.2842044852429,
+          231.1365511020389,
+          64.17203401448928
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 10.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.5014986659644884,
+          "purity": 0.5778234911839406
+        }
+      },
+      {
+        "position": [
+          31.043134788786908,
+          245.54359515176293,
+          64.17203401448928
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 9.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.42062335756700087,
+          "purity": 0.6429385175412197
+        }
+      },
+      {
+        "position": [
+          35.332723969350674,
+          246.89017863038364,
+          64.17203401448928
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 13.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.3362460635150282,
+          "purity": 0.6657003188491842
+        }
+      },
+      {
+        "position": [
+          85.03539503731662,
+          248.99659632650136,
+          44.12345627375338
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 14.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.7977233834117341,
+          "purity": 0.9724368039833652
+        }
+      },
+      {
+        "position": [
+          79.76928754276798,
+          230.00918553767096,
+          44.12345627375338
+        ],
+        "type": "Wood",
+        "element": "nature",
+        "quantity": 9.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.46980138148613165,
+          "purity": 0.9696780034111661
+        }
+      },
+      {
+        "position": [
+          87.06314004845676,
+          249.1588780238232,
+          44.12345627375338
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 11.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.3426292583994904,
+          "purity": 0.937078137908958
+        }
+      },
+      {
+        "position": [
+          76.02194871814153,
+          247.02550604445145,
+          44.12345627375338
+        ],
+        "type": "Crystal",
+        "element": "water",
+        "quantity": 16.400000000000006,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.3680473993237997,
+          "purity": 0.9723604740837741
+        }
+      },
+      {
+        "position": [
+          53.130687709753445,
+          93.55997858644955,
+          23.63307254106246
+        ],
+        "type": "Arcane Crystal",
+        "element": "dark",
+        "quantity": 13.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.30184105665050276,
+          "purity": 0.5557471572178021
+        }
+      },
+      {
+        "position": [
+          49.67633200139015,
+          88.29285232640993,
+          23.63307254106246
+        ],
+        "type": "Arcane Crystal",
+        "element": "arcane",
+        "quantity": 16.400000000000006,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.6125953316055104,
+          "purity": 0.8876117915511373
+        }
+      },
+      {
+        "position": [
+          51.150041545207394,
+          105.41898341159532,
+          23.63307254106246
+        ],
+        "type": "Arcane Crystal",
+        "element": "dark",
+        "quantity": 14.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.4561201675923434,
+          "purity": 0.7363688917451908
+        }
+      },
+      {
+        "position": [
+          66.81382279385086,
+          92.6040778987791,
+          23.63307254106246
+        ],
+        "type": "Arcane Crystal",
+        "element": "dark",
+        "quantity": 10.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.383684490055891,
+          "purity": 0.7628719044256772
+        }
+      },
+      {
+        "position": [
+          51.60817538313307,
+          104.28899472033068,
+          23.63307254106246
+        ],
+        "type": "Arcane Crystal",
+        "element": "arcane",
+        "quantity": 9.399999999999999,
+        "regeneration_rate": 0.1,
+        "properties": {
+          "hardness": 0.681207461215375,
+          "purity": 0.6881182741160827
+        }
+      }
+    ]
+  }
+}
