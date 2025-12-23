@@ -185,6 +185,12 @@ The web interface will be available at your Render URL.
 
 ### Deploy to Heroku
 
+Create a `Procfile` in the repository root:
+```
+web: gunicorn app:app
+```
+
+Then deploy:
 ```bash
 # Install Heroku CLI and login
 heroku login
@@ -216,7 +222,7 @@ curl -X POST https://your-app.onrender.com/api/game/new \
   -d '{"player_name": "Hero", "seed": 12345}'
 
 # Check game status
-curl https://your-app.onrender.com/api/game/SESSION_ID/status
+curl https://your-app.onrender.com/api/game/<session_id>/status
 ```
 
 ## 🎮 Playing the Game

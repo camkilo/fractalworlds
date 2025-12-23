@@ -20,7 +20,7 @@ def home():
     """Serve the main HTML page"""
     try:
         with open('index.html', 'r') as f:
-            return f.read()
+            return f.read(), 200, {'Content-Type': 'text/html; charset=utf-8'}
     except FileNotFoundError:
         return jsonify({'error': 'index.html not found'}), 404
 
