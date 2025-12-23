@@ -45,7 +45,7 @@ class PlayerStats:
     strength: float = 10.0
     intelligence: float = 10.0
     agility: float = 10.0
-    logic_mastery: float = 1.0  # Affects puzzle solving and spell power
+    logic_mastery: float = 1.0  # Multiplier for spell power and puzzle solving (1.0-10.0)
     
     def regenerate(self, delta_time: float):
         """Regenerate health, mana, and stamina"""
@@ -1013,7 +1013,7 @@ class PuzzleSystem:
         """Get a random puzzle of given difficulty"""
         suitable = [p for p in self.puzzles if p["difficulty"] == difficulty]
         if suitable:
-            return np.random.choice(suitable)
+            return suitable[np.random.randint(len(suitable))]
         return None
 
 

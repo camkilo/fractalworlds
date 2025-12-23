@@ -114,7 +114,6 @@ def example_magic():
     
     for spell_name in spell_names:
         # Boost magic skill to learn advanced spells
-        game.game_state.player.skills[game.game_state.player.skills.__class__.__dict__['__annotations__'].keys().__iter__().__next__()] = 6.0
         from gameplay import SkillType
         game.game_state.player.skills[SkillType.MAGIC] = 6.0
         
