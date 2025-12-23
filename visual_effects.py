@@ -556,6 +556,9 @@ def create_post_processing_stack(quality: str = "cinematic") -> Dict[str, Any]:
 class CinematicCamera:
     """Cinematic camera system with advanced controls"""
     
+    # Class constants
+    DEFAULT_FPS = 60  # Default frame rate for cinematic paths
+    
     def __init__(self):
         self.position = np.array([0.0, 0.0, 10.0])
         self.target = np.array([0.0, 0.0, 0.0])
@@ -567,6 +570,7 @@ class CinematicCamera:
         self.current_mode = "follow"
         self.smoothing = 0.1  # Camera smoothing factor
         self.shake_intensity = 0.0
+        self.fps = self.DEFAULT_FPS  # Configurable frame rate
         
     def set_mode(self, mode: str):
         """Set camera mode"""
@@ -620,7 +624,7 @@ class CinematicCamera:
             next_frame = keyframes[i + 1]
             
             # Interpolate between keyframes
-            steps = int(current.get("duration", 1.0) * 60)  # 60 fps
+            steps = int(current.get("duration", 1.0) * self.fps)
             
             for step in range(steps):
                 t = step / steps

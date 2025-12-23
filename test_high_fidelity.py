@@ -50,8 +50,13 @@ def test_world_generation():
         print(f"   - Magic level: {creature['magic_level']:.2f}")
         
         if creature.get("is_humanoid"):
-            print(f"   - Equipment: {list(creature['equipment'].keys())}")
-            print(f"   - Facial expressions: {creature['animations']['facial_expressions']['enabled']}")
+            equipment = creature.get('equipment')
+            if equipment:
+                print(f"   - Equipment: {list(equipment.keys())}")
+            animations = creature.get('animations', {})
+            facial = animations.get('facial_expressions', {})
+            if facial:
+                print(f"   - Facial expressions: {facial.get('enabled', False)}")
     
     print("\n✅ World generation test PASSED!")
     return world

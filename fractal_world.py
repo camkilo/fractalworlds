@@ -482,9 +482,17 @@ class FractalWorld:
             },
             "accessories": {
                 "count": np.random.randint(0, 4),
-                "types": np.random.choice(["amulet", "ring", "bracelet", "crown"], size=np.random.randint(0, 3), replace=False).tolist()
+                "types": self._safe_choice_accessories()
             }
         }
+    
+    def _safe_choice_accessories(self) -> List[str]:
+        """Safely choose random accessories"""
+        accessory_types = ["amulet", "ring", "bracelet", "crown"]
+        count = np.random.randint(0, 4)
+        if count == 0:
+            return []
+        return np.random.choice(accessory_types, size=min(count, len(accessory_types)), replace=False).tolist()
     
     def _generate_creature_magic_effects(self, magic_level: float) -> Dict[str, Any]:
         """Generate magical visual effects for creatures"""

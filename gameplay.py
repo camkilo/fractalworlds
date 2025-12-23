@@ -1112,6 +1112,10 @@ class PuzzleSystem:
 class InteractiveEnvironment:
     """System for interactive and destructible terrain"""
     
+    # Terrain modification types
+    MODIFICATION_TYPES = ["crater", "raise", "flatten", "destroy", "flood"]
+    PERMANENT_TYPES = ["crater", "raise"]
+    
     def __init__(self, world_size: int = 256):
         self.world_size = world_size
         self.terrain_modifications: List[Dict[str, Any]] = []
@@ -1120,13 +1124,23 @@ class InteractiveEnvironment:
     
     def modify_terrain(self, position: Tuple[float, float, float], 
                       modification_type: str, radius: float = 5.0) -> Dict[str, Any]:
-        """Modify terrain at a position"""
+        """
+        Modify terrain at a position.
+        
+        Args:
+            position: (x, y, z) position to modify
+            modification_type: Type of modification (crater, raise, flatten, destroy, flood)
+            radius: Radius of effect in meters
+        
+        Returns:
+            Dict containing modification details and affected objects
+        """
         modification = {
             "position": position,
-            "type": modification_type,  # crater, raise, flatten, destroy, flood
+            "type": modification_type,
             "radius": radius,
             "timestamp": 0,  # Would be actual timestamp in real game
-            "permanent": modification_type in ["crater", "raise"]
+            "permanent": modification_type in self.PERMANENT_TYPES
         }
         
         self.terrain_modifications.append(modification)
