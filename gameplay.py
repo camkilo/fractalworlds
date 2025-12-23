@@ -1024,23 +1024,70 @@ class InteractiveEnvironment:
         self.world_size = world_size
         self.terrain_modifications: List[Dict[str, Any]] = []
         self.resource_nodes: List[Dict[str, Any]] = []
+        self.destructible_objects: List[Dict[str, Any]] = []
     
     def modify_terrain(self, position: Tuple[float, float, float], 
                       modification_type: str, radius: float = 5.0) -> Dict[str, Any]:
         """Modify terrain at a position"""
         modification = {
             "position": position,
-            "type": modification_type,  # crater, raise, flatten, destroy
+            "type": modification_type,  # crater, raise, flatten, destroy, flood
             "radius": radius,
-            "timestamp": 0  # Would be actual timestamp in real game
+            "timestamp": 0,  # Would be actual timestamp in real game
+            "permanent": modification_type in ["crater", "raise"]
         }
         
         self.terrain_modifications.append(modification)
         
+        # Check for affected destructible objects
+        affected_objects = []
+        for obj in self.destructible_objects:
+            obj_pos = np.array(obj["position"])
+            dist = np.linalg.norm(obj_pos - np.array(position))
+            if dist <= radius:
+                obj["health"] -= (radius - dist) * 10
+                if obj["health"] <= 0:
+                    obj["destroyed"] = True
+                    affected_objects.append(obj)
+        
         return {
             "success": True,
             "modification": modification,
-            "affected_area": np.pi * radius ** 2
+            "affected_area": np.pi * radius ** 2,
+            "destroyed_objects": affected_objects
+        }
+    
+    def create_destructible_object(self, position: Tuple[float, float, float],
+                                   object_type: str) -> Dict[str, Any]:
+        """Create a destructible object like a tree"""
+        obj = {
+            "position": position,
+            "type": object_type,  # tree, rock, building
+            "health": 100.0 if object_type == "tree" else 200.0,
+            "destroyed": False,
+            "can_fall": object_type == "tree",
+            "drops_resources": True,
+            "resource_type": "wood" if object_type == "tree" else "stone"
+        }
+        self.destructible_objects.append(obj)
+        return obj
+    
+    def simulate_river_flood(self, river_path: List[Tuple[float, float, float]],
+                           flood_level: float) -> Dict[str, Any]:
+        """Simulate river flooding that affects terrain"""
+        flooded_area = []
+        for point in river_path:
+            flood_radius = 5.0 * flood_level
+            self.modify_terrain(point, "flood", flood_radius)
+            flooded_area.append({
+                "center": point,
+                "radius": flood_radius
+            })
+        
+        return {
+            "success": True,
+            "flooded_areas": flooded_area,
+            "total_area": sum(np.pi * area["radius"]**2 for area in flooded_area)
         }
     
     def create_resource_node(self, position: Tuple[float, float, float], 
@@ -1082,6 +1129,132 @@ class InteractiveEnvironment:
         return False
 
 
+class FactionSystem:
+    """System for managing NPC factions and relationships"""
+    
+    def __init__(self):
+        self.factions: Dict[str, Dict[str, Any]] = {}
+        self.relationships: Dict[Tuple[str, str], float] = {}  # -1.0 (hostile) to 1.0 (allied)
+        self._initialize_factions()
+    
+    def _initialize_factions(self):
+        """Initialize default factions"""
+        default_factions = [
+            {
+                "id": "village_council",
+                "name": "Village Council",
+                "type": "peaceful",
+                "territory": "villages",
+                "reputation_with_player": 0.0
+            },
+            {
+                "id": "forest_guardians",
+                "name": "Forest Guardians",
+                "type": "nature",
+                "territory": "forests",
+                "reputation_with_player": 0.0
+            },
+            {
+                "id": "mountain_clans",
+                "name": "Mountain Clans",
+                "type": "warrior",
+                "territory": "mountains",
+                "reputation_with_player": 0.0
+            },
+            {
+                "id": "arcane_order",
+                "name": "Arcane Order",
+                "type": "magical",
+                "territory": "magical_groves",
+                "reputation_with_player": 0.0
+            },
+            {
+                "id": "bandits",
+                "name": "Bandit Groups",
+                "type": "hostile",
+                "territory": "plains",
+                "reputation_with_player": -0.5
+            }
+        ]
+        
+        for faction in default_factions:
+            self.factions[faction["id"]] = faction
+        
+        # Set up faction relationships
+        self.relationships[("village_council", "forest_guardians")] = 0.7
+        self.relationships[("forest_guardians", "village_council")] = 0.7
+        self.relationships[("arcane_order", "forest_guardians")] = 0.5
+        self.relationships[("village_council", "bandits")] = -0.8
+        self.relationships[("bandits", "village_council")] = -0.8
+        self.relationships[("mountain_clans", "arcane_order")] = 0.3
+    
+    def modify_reputation(self, faction_id: str, change: float):
+        """Modify player's reputation with a faction"""
+        if faction_id in self.factions:
+            self.factions[faction_id]["reputation_with_player"] = np.clip(
+                self.factions[faction_id]["reputation_with_player"] + change,
+                -1.0, 1.0
+            )
+            
+            # Affect related factions
+            for (f1, f2), relationship in self.relationships.items():
+                if f1 == faction_id and relationship > 0.5:
+                    # Allied factions slightly influenced
+                    self.factions[f2]["reputation_with_player"] += change * 0.3
+                elif f1 == faction_id and relationship < -0.5:
+                    # Enemy factions react oppositely
+                    self.factions[f2]["reputation_with_player"] -= change * 0.3
+    
+    def get_faction_reaction(self, faction_id: str) -> str:
+        """Get how a faction reacts to the player"""
+        if faction_id not in self.factions:
+            return "neutral"
+        
+        rep = self.factions[faction_id]["reputation_with_player"]
+        if rep > 0.7:
+            return "friendly"
+        elif rep > 0.3:
+            return "approving"
+        elif rep > -0.3:
+            return "neutral"
+        elif rep > -0.7:
+            return "suspicious"
+        else:
+            return "hostile"
+    
+    def apply_player_action(self, action_type: str, target_faction: str = None) -> Dict[str, Any]:
+        """Apply consequences of player actions on faction relationships"""
+        consequences = {}
+        
+        if action_type == "help_villager":
+            self.modify_reputation("village_council", 0.1)
+            consequences["village_council"] = "reputation increased"
+        elif action_type == "harm_villager":
+            self.modify_reputation("village_council", -0.2)
+            consequences["village_council"] = "reputation decreased significantly"
+        elif action_type == "protect_forest":
+            self.modify_reputation("forest_guardians", 0.15)
+            consequences["forest_guardians"] = "reputation increased"
+        elif action_type == "harm_forest":
+            self.modify_reputation("forest_guardians", -0.25)
+            consequences["forest_guardians"] = "reputation decreased significantly"
+        elif action_type == "defeat_bandits":
+            self.modify_reputation("bandits", -0.1)
+            self.modify_reputation("village_council", 0.15)
+            consequences["bandits"] = "reputation decreased"
+            consequences["village_council"] = "reputation increased"
+        elif action_type == "learn_magic":
+            self.modify_reputation("arcane_order", 0.1)
+            consequences["arcane_order"] = "reputation increased"
+        
+        return {
+            "action": action_type,
+            "consequences": consequences,
+            "current_standings": {fid: self.get_faction_reaction(fid) 
+                                for fid in self.factions.keys()}
+        }
+
+
 class GameState:
     """Main game state manager"""
     
@@ -1094,6 +1267,7 @@ class GameState:
         self.ecosystem = EcosystemSimulator()
         self.puzzles = PuzzleSystem()
         self.environment = InteractiveEnvironment()
+        self.factions = FactionSystem()
         self.time_elapsed = 0.0
         self.game_active = True
         
@@ -1101,6 +1275,15 @@ class GameState:
         if world_data and "creatures" in world_data:
             for creature in world_data["creatures"]:
                 self.ecosystem.add_creature(creature.copy())
+        
+        # Initialize destructible objects from world
+        if world_data and "forests" in world_data:
+            for forest in world_data["forests"]:
+                for tree in forest.get("trees", []):
+                    self.environment.create_destructible_object(
+                        tree["position"],
+                        "tree"
+                    )
     
     def tick(self, delta_time: float = 1.0):
         """Update game state"""
